@@ -23,6 +23,8 @@ WebUI.navigateToUrl('http://localhost:8080/')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
 
+WebUI.click(findTestObject('Object Repository/Page_Element/input_Sign in with_username'))
+
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), '5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI')
@@ -37,19 +39,11 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_People_mx_AccessibleButton mx_RoomSubli_41d97d'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_e10a17'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_1'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_This room is public_mx_ContextualMenu_b_fc4f75'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/img_Review_mx_BaseAvatar_image'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/span_All settings'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Settings_mx_AccessibleButton mx_Dialog__4987e8'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div'))
 
 WebUI.closeBrowser()
 

@@ -37,18 +37,15 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Tr Cao Thin_mx_AccessibleButton mx_Room_04dc30'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/span_Settings'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Room Settings - Tr Cao Thin_mx_Accessib_be264e'))
-
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Tr Cao Thin'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div'))
+WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin_mx_AccessibleButton mx_Room_04dc30'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_abc_mx_BasicMessageComposer_input mx_Ba_5abc24'), 
-    '<div style=""><br></div>')
+WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/span_Settings'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_Room Settings - Tr Cao Thin_mx_Accessib_be264e'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin'))
 
 WebUI.closeBrowser()
 

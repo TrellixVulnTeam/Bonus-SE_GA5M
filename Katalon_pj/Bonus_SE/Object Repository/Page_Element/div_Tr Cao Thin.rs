@@ -6,12 +6,12 @@
    <elementGuidId>49dec009-d147-4719-89c9-14996b55f6d0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div/div/div[3]/div[2]/div/div/div[2]/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.mx_RoomTile_name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div/div/div[3]/div[2]/div/div/div[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

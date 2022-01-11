@@ -37,26 +37,13 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Tr Cao Thin_mx_AccessibleButton mx_Room_44fb40'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/span_None'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_This room is public_mx_ContextualMenu_b_fc4f75'))
-
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Tr Cao Thin'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div'))
+WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin_mx_AccessibleButton mx_Room_44fb40'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin_mx_AccessibleButton mx_Room_7990dc'))
+WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/span_None'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/span_Use default'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_This room is public_mx_ContextualMenu_b_fc4f75'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_1'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_abc_mx_BasicMessageComposer_input mx_Ba_ba780f'), 
-    '<div style=""><br></div>')
 
 WebUI.closeBrowser()
 
