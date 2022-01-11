@@ -23,6 +23,8 @@ WebUI.navigateToUrl('http://localhost:8080/')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
 
+WebUI.click(findTestObject('Object Repository/Page_Element/input_Sign in with_username'))
+
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), '5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI')
@@ -39,12 +41,15 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_hehe'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element  hehe/div_Tr'), '<div>@Tr</div>')
+WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div'))
+
+WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Element  hehe/div_Tr'), '<div style="">@Tr</div>')
 
 WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_TTr Cao Thincttri19matrix.org'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element  hehe/div_Tr Cao Thin_mx_BasicMessageComposer_inp_2f0e47'), 
-    '<div><br></div>')
+WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_Tr Cao Thin_mx_AccessibleButton mx_Mess_a3bcd2'))
 
 WebUI.closeBrowser()
 

@@ -25,8 +25,6 @@ WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/span_New Create account'))
-
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), '5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))

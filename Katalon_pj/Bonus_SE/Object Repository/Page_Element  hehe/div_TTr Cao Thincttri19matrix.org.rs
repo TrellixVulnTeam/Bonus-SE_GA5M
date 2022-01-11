@@ -89,15 +89,15 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:position</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hihi'])[1]/following::div[21]</value>
+      <value>//div/div[2]/div/div/div/div/div[2]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div/div[2]/div/div/div/div/div[2]/div</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hihi'])[1]/following::div[21]</value>
    </webElementXpaths>
 </WebElementEntity>
