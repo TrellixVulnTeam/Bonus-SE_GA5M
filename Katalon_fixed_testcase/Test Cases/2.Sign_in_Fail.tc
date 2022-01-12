@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sign in Fail</description>
+   <name>2.Sign_in_Fail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af48d376-594e-472f-a720-b542202f4c47</testCaseGuid>
+</TestCaseEntity>
