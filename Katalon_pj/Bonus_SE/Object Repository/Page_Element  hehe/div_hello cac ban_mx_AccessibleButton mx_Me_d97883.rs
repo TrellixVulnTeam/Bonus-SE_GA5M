@@ -70,14 +70,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hello cac ban'])[1]/following::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hello cac ban'])[2]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ptnha19'])[4]/following::div[33]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='a'])[1]/following::div[29]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

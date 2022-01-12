@@ -39,9 +39,12 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_hehe'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_hello cac ban_mx_AccessibleButton mx_Me_7c9173'))
+WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div'))
 
-WebUI.doubleClick(findTestObject('Object Repository/Page_Element  hehe/div_'))
+WebUI.setText(findTestObject('Object Repository/Page_Element  hehe/div_hello cac ban_mx_BasicMessageComposer_i_fc0879'), 
+    '<div style=""><br></div>')
+
+WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_hello cac ban_mx_AccessibleButton mx_Me_7c9173'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_'))
 
@@ -49,7 +52,7 @@ WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_This room i
 
 WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div__mx_AccessibleButton mx_MessageComposer_d2d5d0'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element  hehe/span_'))
+WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div'))
 
 WebUI.closeBrowser()
 
