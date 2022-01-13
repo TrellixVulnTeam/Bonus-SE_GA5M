@@ -107,4 +107,11 @@
       <type>Main</type>
       <value>//div[3]/input</value>
    </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='mx_Field_4']</value>
+   </webElementXpaths>
 </WebElementEntity>

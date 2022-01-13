@@ -6,12 +6,12 @@
    <elementGuidId>26afd2b5-fef6-4ff7-94a9-37f6ec55cfdc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mx_Dialog_Container']/div/div/div[3]/div[2]/div/form/div/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.mx_Field.mx_Field_input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mx_Dialog_Container']/div/div/div[3]/div[2]/div/form/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mx_Field_4', '&quot;', ')')])[1]/following::div[14]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by Matrix'])[1]/following::div[19]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,6 +84,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by Matrix'])[1]/following::div[19]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mx_Field_4', '&quot;', ')')])[1]/following::div[14]</value>
    </webElementXpaths>
 </WebElementEntity>

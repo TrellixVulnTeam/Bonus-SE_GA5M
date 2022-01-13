@@ -6,12 +6,12 @@
    <elementGuidId>99d8aa19-17a5-4b38-b256-824381f080e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='dirsearch']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;dirsearch&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='dirsearch']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -78,6 +78,13 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
