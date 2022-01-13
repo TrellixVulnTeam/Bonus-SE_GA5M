@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 
@@ -42,6 +42,9 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_hehe'))
 WebUI.setText(findTestObject('Object Repository/Page_Element  hehe/div_hello cac ban'), '<div>hello cac ban</div>')
 
 WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_hello cac ban_mx_AccessibleButton mx_Me_d97883'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Element  hehe/div_hello cac ban_mx_BasicMessageComposer_i_fc0879'), 
+    '<div style=""><br></div>')
 
 WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_hello cac ban'))
 

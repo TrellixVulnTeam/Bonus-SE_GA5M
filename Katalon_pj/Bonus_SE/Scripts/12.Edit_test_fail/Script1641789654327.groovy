@@ -23,8 +23,6 @@ WebUI.navigateToUrl('http://localhost:8080/')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/input_Sign in with_username'))
-
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), '5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI')
@@ -41,9 +39,11 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_hehe'))
 
+WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_hello cac ban'))
+
 WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_hello cac ban_mx_AccessibleButton mx_Me_9fed7d'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element  hehe/div_hello cac ban'), '<div style="">hello cac ban</div>')
+WebUI.setText(findTestObject('Object Repository/Page_Element  hehe/div_hello cac ban abc'), '<div style="">hello cac ban abc</div>')
 
 WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_Cancel'))
 

@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div[2]/div[3]/main/div[2]/div/div[2]/div/div/ol/li[14]/div[3]/div[3]/div[3]</value>
+         <value>//section[@id='matrixchat']/div/div[2]/div[3]/main/div[2]/div/div[2]/div/div/ol/li[32]/div[3]/div[3]/div[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>li.mx_EventTile.mx_EventTile_last.mx_EventTile_lastInSection > div.mx_EventTile_line > div.mx_MessageActionBar > div.mx_AccessibleButton.mx_MessageActionBar_maskButton.mx_MessageActionBar_editButton</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,48 +56,48 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_RoomView_wrapper&quot;]/main[@class=&quot;mx_RoomView&quot;]/div[@class=&quot;mx_MainSplit&quot;]/div[@class=&quot;mx_RoomView_body&quot;]/div[@class=&quot;mx_RoomView_timeline mx_RoomView_timeline_rr_enabled&quot;]/div[@class=&quot;mx_AutoHideScrollbar mx_ScrollPanel mx_RoomView_messagePanel mx_GroupLayout&quot;]/div[@class=&quot;mx_RoomView_messageListWrapper&quot;]/ol[@class=&quot;mx_RoomView_MessageList&quot;]/li[@class=&quot;mx_EventTile&quot;]/div[@class=&quot;mx_EventTile_line&quot;]/div[@class=&quot;mx_MessageActionBar&quot;]/div[@class=&quot;mx_AccessibleButton mx_MessageActionBar_maskButton mx_MessageActionBar_editButton&quot;]</value>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_RoomView_wrapper&quot;]/main[@class=&quot;mx_RoomView&quot;]/div[@class=&quot;mx_MainSplit&quot;]/div[@class=&quot;mx_RoomView_body&quot;]/div[@class=&quot;mx_RoomView_timeline mx_RoomView_timeline_rr_enabled&quot;]/div[@class=&quot;mx_AutoHideScrollbar mx_ScrollPanel mx_RoomView_messagePanel mx_GroupLayout&quot;]/div[@class=&quot;mx_RoomView_messageListWrapper&quot;]/ol[@class=&quot;mx_RoomView_MessageList&quot;]/li[@class=&quot;mx_EventTile mx_EventTile_last mx_EventTile_lastInSection&quot;]/div[@class=&quot;mx_EventTile_line&quot;]/div[@class=&quot;mx_MessageActionBar&quot;]/div[@class=&quot;mx_AccessibleButton mx_MessageActionBar_maskButton mx_MessageActionBar_editButton&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='matrixchat']/div/div[2]/div[3]/main/div[2]/div/div[2]/div/div/ol/li[14]/div[3]/div[3]/div[3]</value>
+      <value>//section[@id='matrixchat']/div/div[2]/div[3]/main/div[2]/div/div[2]/div/div/ol/li[32]/div[3]/div[3]/div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hello cac ban'])[1]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='hello cac ban'])[2]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ptnha19'])[5]/following::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ptnha1'])[6]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='😀😀'])[1]/preceding::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This room is public'])[1]/preceding::div[36]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(edited)'])[1]/preceding::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This room is public'])[2]/preceding::div[39]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[14]/div[3]/div[3]/div[3]</value>
+      <value>//li[32]/div[3]/div[3]/div[3]</value>
    </webElementXpaths>
 </WebElementEntity>
