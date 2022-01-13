@@ -6,12 +6,12 @@
    <elementGuidId>34805a86-22f0-4569-8f13-e5ecb408436e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mx_ContextualMenu_Container']/div/div[2]/div/div/div[2]/img</value>
+         <key>CSS</key>
+         <value>img[alt=&quot;google&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>img[alt=&quot;Switch theme&quot;]</value>
+         <key>XPATH</key>
+         <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[3]/div/div[2]/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,31 +28,59 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>img/element-icons/roomlist/dark-light-mode.0169ba1.svg</value>
+      <value>img/element-icons/brands/google.3afbcce.svg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>alt</name>
+      <name>height</name>
       <type>Main</type>
-      <value>Switch theme</value>
+      <value>24</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>16</value>
+      <value>24</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>google</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_ContextualMenu_Container&quot;)/div[@class=&quot;mx_ContextualMenu_wrapper&quot;]/div[@class=&quot;mx_ContextualMenu mx_ContextualMenu_left mx_ContextualMenu_top&quot;]/div[@class=&quot;mx_IconizedContextMenu mx_UserMenu_contextMenu&quot;]/div[@class=&quot;mx_UserMenu_contextMenu_header&quot;]/div[@class=&quot;mx_AccessibleButton mx_UserMenu_contextMenu_themeButton&quot;]/img[1]</value>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_AuthPage&quot;]/div[@class=&quot;mx_AuthPage_modal&quot;]/div[@class=&quot;mx_AuthPage_modalContent&quot;]/div[@class=&quot;mx_AuthBody&quot;]/div[@class=&quot;mx_SSOButtons&quot;]/div[@class=&quot;mx_SSOButtons_row&quot;]/div[@class=&quot;mx_AccessibleButton mx_SSOButton mx_SSOButton_brand_google mx_SSOButton_mini&quot;]/img[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[3]/div/div[2]/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='google']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -64,12 +92,5 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='Switch theme']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/img</value>
    </webElementXpaths>
 </WebElementEntity>

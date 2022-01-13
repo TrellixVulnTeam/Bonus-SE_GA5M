@@ -6,12 +6,12 @@
    <elementGuidId>807f2cc3-c9b9-49fc-82d3-306914d7ae08</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mx_ContextualMenu_Container']/div/div[2]/div/div[2]/div[3]/span[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mx_ContextualMenu_Container']/div/div[2]/div/div[2]/div[3]/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

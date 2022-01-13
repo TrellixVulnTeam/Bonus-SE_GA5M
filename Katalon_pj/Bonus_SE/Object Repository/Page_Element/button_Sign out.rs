@@ -6,12 +6,12 @@
    <elementGuidId>67c602a8-d67f-4721-945d-d60839c9254f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.mx_Dialog_primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_Dialog_Container&quot;)/div[@class=&quot;mx_Dialog_wrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_QuestionDialog mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_Dialog_buttons&quot;]/button[@class=&quot;mx_Dialog_primary&quot;]</value>
+      <value>id(&quot;mx_Dialog_StaticContainer&quot;)/div[@class=&quot;mx_Dialog_wrapper mx_Dialog_staticWrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_QuestionDialog mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_Dialog_buttons&quot;]/button[@class=&quot;mx_Dialog_primary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mx_Dialog_Container']/div/div/div[3]/div[3]/button[2]</value>
+      <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[3]/button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,5 +99,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mx_Dialog_Container']/div/div/div[3]/div[3]/button[2]</value>
    </webElementXpaths>
 </WebElementEntity>
