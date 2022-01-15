@@ -6,12 +6,12 @@
    <elementGuidId>7a843e8f-3814-4e6d-b263-4c8172a37328</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mx_Field_2']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mx_Field_2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='mx_Field_2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -68,13 +68,6 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>ptnha19</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>focus-visible</value>
@@ -85,6 +78,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mx_Field_2&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>ptnha19</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
