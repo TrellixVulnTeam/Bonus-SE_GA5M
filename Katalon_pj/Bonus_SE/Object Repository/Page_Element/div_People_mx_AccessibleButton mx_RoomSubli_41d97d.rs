@@ -6,12 +6,12 @@
    <elementGuidId>3c979d3c-6985-4c2d-8321-f8cfe341a3c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div/div/div[3]/div/div/div[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.mx_RoomSublist_stickable.mx_RoomSublist_headerContainer_stickyTop.mx_RoomSublist_headerContainer_sticky > div.mx_AccessibleButton.mx_RoomSublist_menuButton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div/div/div[3]/div/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -105,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Khoa Dương Văn'])[1]/preceding::div[12]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cao Thiên Trí'])[1]/preceding::div[12]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +113,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[3]/div/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Khoa Dương Văn'])[1]/preceding::div[12]</value>
    </webElementXpaths>
 </WebElementEntity>

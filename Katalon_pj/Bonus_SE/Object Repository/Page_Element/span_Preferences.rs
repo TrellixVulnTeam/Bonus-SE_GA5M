@@ -6,12 +6,12 @@
    <elementGuidId>22bfe284-6a16-4d85-8721-e4e673aed8b1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div/div/div[4]/span[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mx_ContextualMenu_Container']/div/div[2]/div/div[2]/div[3]/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mx_TabbedView_tabLabel_text</value>
+      <value>mx_IconizedContextMenu_label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,10 +42,59 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_Dialog_StaticContainer&quot;)/div[@class=&quot;mx_Dialog_wrapper mx_Dialog_staticWrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_UserSettingsDialog mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_SettingsDialog_content&quot;]/div[@class=&quot;mx_TabbedView mx_TabbedView_tabsOnLeft&quot;]/div[@class=&quot;mx_TabbedView_tabLabels&quot;]/div[@class=&quot;mx_AccessibleButton mx_TabbedView_tabLabel&quot;]/span[@class=&quot;mx_TabbedView_tabLabel_text&quot;]</value>
+      <value>id(&quot;mx_ContextualMenu_Container&quot;)/div[@class=&quot;mx_ContextualMenu_wrapper&quot;]/div[@class=&quot;mx_ContextualMenu mx_ContextualMenu_left mx_ContextualMenu_top&quot;]/div[@class=&quot;mx_IconizedContextMenu mx_SpacePanel_contextMenu mx_IconizedContextMenu_compact&quot;]/div[@class=&quot;mx_IconizedContextMenu_optionList&quot;]/div[@class=&quot;mx_AccessibleButton&quot;]/span[@class=&quot;mx_IconizedContextMenu_label&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mx_ContextualMenu_Container']/div/div[2]/div/div[2]/div[3]/span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage &amp; explore rooms'])[1]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite'])[1]/following::span[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[1]/preceding::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Preferences']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -56,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[2]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,15 +131,15 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:position</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Preferences']/parent::*</value>
+      <value>//div[4]/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[4]/span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[2]/following::span[2]</value>
    </webElementXpaths>
 </WebElementEntity>

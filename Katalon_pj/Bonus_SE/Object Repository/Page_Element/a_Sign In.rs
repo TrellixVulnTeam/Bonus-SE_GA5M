@@ -6,12 +6,12 @@
    <elementGuidId>9fc3842d-3972-46e0-8735-89e96e4c3f52</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div/div/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.mx_ButtonParent.mx_ButtonSignIn.mx_Button_iconSignIn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
