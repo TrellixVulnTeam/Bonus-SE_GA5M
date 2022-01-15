@@ -42,30 +42,6 @@
       <testCaseId>Test Cases/6.Search_join_public_room</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4cc69ea1-6584-477d-b370-78e3a56426b3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/7.Chat_with_other</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>797eb538-7796-4329-9144-3c72749680ca</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/8.Send_text_in_room</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7a6789b6-f042-4485-9b53-76e03ef4a305</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/9.Send_emoji_in_room</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ca1db60f-c272-4573-9774-5cbcbc4f801f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/21.ChangeDarkModeQuick</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>66785ba8-d2e9-43f2-9a7d-f149beaf3715</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -132,19 +108,25 @@
       <testCaseId>Test Cases/37.SettingPeople</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c05f8912-06ef-4bc7-8f93-f1cabdfb20bf</guid>
+      <guid>89dd1c57-bc20-4775-bd52-9551b85aedd2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/38.TurnOffOnNotiPeople</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3e2cff01-26f6-48dd-8f74-28429866f093</guid>
+      <guid>816618e5-1080-45ea-a683-6cdd49406ffb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/40.FeedBack</testCaseId>
+      <testCaseId>Test Cases/41.ChangeLanguage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>eb329a00-9852-4ae5-8cba-2012e886c5a3</guid>
+      <guid>a395df33-d134-4eda-82f2-e0398edc9e1f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/43.InvalidSecurityKey</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d4df2784-ba8b-407a-8500-673eeff35fe9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/20.Set_favorate_room</testCaseId>
