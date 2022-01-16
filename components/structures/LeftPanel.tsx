@@ -404,7 +404,7 @@ export default class LeftPanel extends React.Component<IProps, IState> {
             activeSpace={this.state.activeSpace}
             onResize={this.refreshStickyHeaders}
             onListCollapse={this.refreshStickyHeaders}
-            ref={this.roomListRef}
+            ref= {this.roomListRef}
         />;
 
         const containerClasses = classNames({
