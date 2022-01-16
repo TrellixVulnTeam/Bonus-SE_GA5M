@@ -12,117 +12,135 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>eb4e5cd5-876c-4add-8a8e-b1d10dbda4c1</testSuiteGuid>
    <testCaseLink>
-      <guid>a7054556-ae57-443e-b0e5-6cf6a19b9e6b</guid>
+      <guid>7ad2c8c1-7642-449a-b19f-697f6445d1f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/41.ChangeLanguage</testCaseId>
+      <testCaseId>Test Cases/60.VerifyWithOtherDevices</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>970807a5-d447-4f78-a3d0-de93aa2ec116</guid>
+      <guid>a09f9774-471c-43af-8155-59a55bbd8639</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/42.SubmitDebugLogs</testCaseId>
+      <testCaseId>Test Cases/61.SignOutFail</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>55e5ab0d-e60b-4b11-93b4-945d05d18b74</guid>
+      <guid>1720ba4f-37a5-457a-b443-d9c79cb06fec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/43.InvalidSecurityKey</testCaseId>
+      <testCaseId>Test Cases/62.SignInWithoutVerify</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>dc2d21ae-b31f-448a-9263-08c8d3631235</guid>
+      <guid>d36fc6a9-5987-4621-9f59-8dfef16a4007</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/44.SignOutThroughSetting</testCaseId>
+      <testCaseId>Test Cases/63.ServerOptions</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bfcaa0c0-a734-4e15-be22-d9b6a53677e0</guid>
+      <guid>b162fbd8-86e0-4bee-81a4-3b70243bb8a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/45.ChangeLanguageInSigninPage</testCaseId>
+      <testCaseId>Test Cases/64.ResetSecurityKey</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>02e569e2-a0f2-451e-aa6c-7cd70df618d3</guid>
+      <guid>d5aba4b9-cede-4d03-ba69-643c92857491</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/46.ExploreRoomInFirstPage</testCaseId>
+      <testCaseId>Test Cases/65.UploadSecurityKey</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>404b5f89-00ac-4894-b7f1-41c371b2cfa4</guid>
+      <guid>33db2a8b-3b19-4d3c-9ff2-98cf4c4c6c43</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/47.CreateAccountBacktoSignInPage</testCaseId>
+      <testCaseId>Test Cases/66.CreateAccountInWelcomePage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>44ca1ed7-b3fc-4a6f-b915-d0667719a248</guid>
+      <guid>33a299d6-6fe0-425c-88d1-d8326816d264</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/48.ChangeLanguageInWelcomePage</testCaseId>
+      <testCaseId>Test Cases/67.ExpandSpaceBar</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d3af52ec-9dae-4d28-8ef1-22c9275c043b</guid>
+      <guid>5f64d755-0faa-4b26-9dcc-ac4c6181427d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/49.LogInFail</testCaseId>
+      <testCaseId>Test Cases/68.UploadAvatarSpace</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>925cf11a-048c-4096-95f4-475c68aabc77</guid>
+      <guid>1d0d19d8-2f6c-453d-89a2-dc88361f42c2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/50.LogInByGGAccount</testCaseId>
+      <testCaseId>Test Cases/69.ChangeDescriptionSpace</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ccb525f1-e070-448b-a293-d74e0a75ec61</guid>
+      <guid>5fd90148-f6b7-478c-9dfb-56ead9546d6a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/51.ChangeRoomName</testCaseId>
+      <testCaseId>Test Cases/70.MakeSpacePublic</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5496e47e-5035-48b1-b05a-cc953f63ad54</guid>
+      <guid>bdec2233-0c5e-44d9-b083-e64463eb1918</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/52.PrivateToPublic</testCaseId>
+      <testCaseId>Test Cases/71.SpaceSetting</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f05b111a-66d7-40eb-9b7f-40e0ee2f23b5</guid>
+      <guid>27c0f92b-71b5-48d8-824f-fce085302d2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/53.InvitePeopleToRoom</testCaseId>
+      <testCaseId>Test Cases/72.SearchInSpace</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f485856b-2fe4-4bac-8ea6-a215a3d5d75b</guid>
+      <guid>3ea2bd36-52a4-4bb7-8c45-90c325db90b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/54.ShareLinkToUser</testCaseId>
+      <testCaseId>Test Cases/73.InviteToSpacec</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e2203f52-3390-4b93-aad8-c1ffc8c464cf</guid>
+      <guid>f0ff2de7-7652-47c8-a4d2-570020bbefb6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/55.ShareLink</testCaseId>
+      <testCaseId>Test Cases/74.SendDirectMessage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b68fc24c-ee88-4754-8280-cf05fa421559</guid>
+      <guid>3468ef7f-0087-417a-9c26-caf31b42a086</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/56.SeeFileInRoom</testCaseId>
+      <testCaseId>Test Cases/75.StartChat</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b631c92d-cc4d-4513-a83b-6445ec64b1a6</guid>
+      <guid>49f0b212-ce45-4f58-bb42-b3a46214f147</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/57.ExportChat</testCaseId>
+      <testCaseId>Test Cases/76.AddInvalidPhoneNumber</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f6af86b0-5323-4d49-aa14-02d7d4473af2</guid>
+      <guid>5f4bf4f3-ab4b-4bd6-8bae-426be21df35e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/58.AdvancedInRoomSetting</testCaseId>
+      <testCaseId>Test Cases/77.PreferenceCodeBlock</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>861ce012-ab45-424e-9feb-0de56c161c62</guid>
+      <guid>dc2d8e34-e199-4b76-9031-ce61a1ab0583</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/59.SearchInRoom</testCaseId>
+      <testCaseId>Test Cases/78.RightClickSpace</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6ad0d677-69ae-4da8-b383-37616e920d96</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/79.InvitePeopleToSpace_RightClick</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e501afda-4b41-4a27-8d2b-d02ce1d55a15</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/80.PreferemcesSpace_RightClick</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>23e38aa9-ff1d-4bdd-a60b-7a1ec74a6c3f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/81.SettingSpace_RightClick</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
