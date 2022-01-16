@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>img[alt=&quot;google&quot;]</value>
+         <value>img[alt=&quot;gitlab&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[3]/div/div[2]/img</value>
+         <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[3]/div/div[3]/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>img/element-icons/brands/google.3afbcce.svg</value>
+      <value>img/element-icons/brands/gitlab.f35856c.svg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,17 +49,38 @@
       <matchCondition>equals</matchCondition>
       <name>alt</name>
       <type>Main</type>
-      <value>google</value>
+      <value>gitlab</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_AuthPage&quot;]/div[@class=&quot;mx_AuthPage_modal&quot;]/div[@class=&quot;mx_AuthPage_modalContent&quot;]/div[@class=&quot;mx_AuthBody&quot;]/div[@class=&quot;mx_SSOButtons&quot;]/div[@class=&quot;mx_SSOButtons_row&quot;]/div[@class=&quot;mx_AccessibleButton mx_SSOButton mx_SSOButton_brand_google mx_SSOButton_mini&quot;]/img[1]</value>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_AuthPage&quot;]/div[@class=&quot;mx_AuthPage_modal&quot;]/div[@class=&quot;mx_AuthPage_modalContent&quot;]/div[@class=&quot;mx_AuthBody&quot;]/div[@class=&quot;mx_SSOButtons&quot;]/div[@class=&quot;mx_SSOButtons_row&quot;]/div[@class=&quot;mx_AccessibleButton mx_SSOButton mx_SSOButton_brand_gitlab mx_SSOButton_mini&quot;]/img[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[3]/div/div[3]/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='gitlab']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
