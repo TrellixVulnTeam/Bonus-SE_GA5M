@@ -72,4 +72,11 @@
       <type>Main</type>
       <value>//div[5]/div/div/div[3]/div/div</value>
    </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div</value>
+   </webElementXpaths>
 </WebElementEntity>
