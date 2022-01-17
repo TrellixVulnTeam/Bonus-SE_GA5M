@@ -1366,7 +1366,6 @@ class MemberGrouper extends BaseGrouper {
                 startExpanded={highlightInMels}
                 layout={this.layout}
             >
-                { eventTiles }
             </MemberEventListSummary>,
         );
 
