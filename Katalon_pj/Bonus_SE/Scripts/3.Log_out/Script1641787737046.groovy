@@ -41,6 +41,8 @@ WebUI.click(findTestObject('Object Repository/Page_Element/img_Enable_mx_BaseAva
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_Sign out'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Sign out'))
 
 WebUI.closeBrowser()
