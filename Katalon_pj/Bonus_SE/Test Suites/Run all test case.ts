@@ -12,6 +12,18 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>dd9cc34b-b546-4519-b3bb-a2a6231762ad</testSuiteGuid>
    <testCaseLink>
+      <guid>1bfa5f76-71f6-4883-86c6-875b6f8db267</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/40.FeedBack</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fab64bb5-e623-433e-9e03-b9fc482a31f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/49.LogInFail_03</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>50a2b900-c75d-444b-a458-3bb982d0a0d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

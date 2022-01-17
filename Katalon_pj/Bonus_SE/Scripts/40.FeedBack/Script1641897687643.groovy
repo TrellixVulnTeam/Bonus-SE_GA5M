@@ -37,11 +37,17 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image'))
+WebUI.rightClick(findTestObject('Object Repository/Page_Element/img_Review_mx_BaseAvatar_image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_Feedback'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Element/textarea_good app'), 'good app')
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Object Repository/Page_Element/textarea_a'), 'a')
+
+WebUI.setText(findTestObject('Object Repository/Page_Element/textarea_ab'), 'ab')
+
+WebUI.setText(findTestObject('Object Repository/Page_Element/textarea_abc'), 'abc')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Send feedback'))
 
