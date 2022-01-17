@@ -250,6 +250,43 @@ export default class RoomProfileSettings extends React.Component<IProps, IState>
                 noValidate={true}
                 className="mx_ProfileSettings_profileForm"
             >
+                <input
+                    type="file"
+                    ref={this.avatarUpload}
+                    className="mx_ProfileSettings_avatarUpload"
+                    onChange={this.onAvatarChanged}
+                    accept="image/*"
+                />
+                <div className="mx_ProfileSettings_profile">
+                    <div className="mx_ProfileSettings_controls">
+                        <Field
+                            label={_t("Room Name")}
+                            type="text"
+                            value={this.state.displayName}
+                            autoComplete="off"
+                            onChange={this.onDisplayNameChanged}
+                            disabled={!this.state.canSetName}
+                        />
+                        <Field
+                            className="mx_ProfileSettings_controls_topic"
+                            id="profileTopic"
+                            label={_t("Room Topic")}
+                            disabled={!this.state.canSetTopic}
+                            type="text"
+                            value={this.state.topic}
+                            autoComplete="off"
+                            onChange={this.onTopicChanged}
+                            element="textarea"
+                        />
+                    </div>
+                    <AvatarSetting
+                        avatarUrl={this.state.avatarUrl}
+                        avatarName={this.state.displayName || this.props.roomId}
+                        avatarAltText={_t("Room avatar")}
+                        uploadAvatar={this.state.canSetAvatar ? this.uploadAvatar : undefined}
+                        removeAvatar={this.state.canSetAvatar ? this.removeAvatar : undefined} />
+                </div>
+                { profileSettingsButtons }
             </form>
         );
     }
