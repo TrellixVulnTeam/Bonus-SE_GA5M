@@ -437,7 +437,7 @@ export default class LeftPanel extends React.Component<IProps, IState> {
                             tabIndex={-1}
                             onKeyDown={this.onRoomListKeydown}
                         >
-                            
+                            { roomList }
                         </div>
                     </div>
                     { !this.props.isMinimized && <LeftPanelWidget /> }
