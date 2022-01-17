@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Sign in with_username</name>
+   <name>div_Send a Direct Message</name>
    <tag></tag>
-   <elementGuidId>7a843e8f-3814-4e6d-b263-4c8172a37328</elementGuidId>
+   <elementGuidId>1ec487f0-a421-4301-b1dc-8582fa6fe7ac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mx_Field_2</value>
+         <key>XPATH</key>
+         <value>//section[@id='matrixchat']/div/div[2]/div[3]/div/div/div/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mx_Field_2']</value>
+         <key>CSS</key>
+         <value>div.mx_AccessibleButton.mx_HomePage_button_sendDm</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>username</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>role</name>
       <type>Main</type>
-      <value>username</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>label</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>Username</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>username</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>mx_Field_2</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>focus-visible</value>
+      <value>mx_AccessibleButton mx_HomePage_button_sendDm</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Send a Direct Message</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_Field_2&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>ptnha19</value>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_RoomView_wrapper&quot;]/div[@class=&quot;mx_AutoHideScrollbar mx_HomePage mx_HomePage_default&quot;]/div[@class=&quot;mx_HomePage_default_wrapper&quot;]/div[@class=&quot;mx_HomePage_default_buttons&quot;]/div[@class=&quot;mx_AccessibleButton mx_HomePage_button_sendDm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@id='mx_Field_2']</value>
+      <value>//section[@id='matrixchat']/div/div[2]/div[3]/div/div/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[2]/input</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Own your conversations.'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to Element'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore Public Rooms'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='mx_Field_8']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='mx_Field_5']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='mx_Field_3']</value>
+      <value>//div[3]/div/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

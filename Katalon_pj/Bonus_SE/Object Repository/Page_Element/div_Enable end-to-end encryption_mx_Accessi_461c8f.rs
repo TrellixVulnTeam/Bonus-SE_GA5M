@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Sign in with_username</name>
+   <name>div_Enable end-to-end encryption_mx_Accessi_461c8f</name>
    <tag></tag>
-   <elementGuidId>7a843e8f-3814-4e6d-b263-4c8172a37328</elementGuidId>
+   <elementGuidId>bd88b863-8b50-4e41-a083-ce611d7a0484</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mx_Field_2</value>
+         <key>XPATH</key>
+         <value>//div[@id='mx_Dialog_Container']/div/div/div[3]/form/div/div[4]/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mx_Field_2']</value>
+         <key>CSS</key>
+         <value>div.mx_AccessibleButton.mx_ToggleSwitch.mx_ToggleSwitch_enabled</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,97 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>username</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>username</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>Enable end-to-end encryption</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>label</name>
+      <name>role</name>
       <type>Main</type>
-      <value>Username</value>
+      <value>switch</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>aria-checked</name>
       <type>Main</type>
-      <value>username</value>
+      <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>aria-disabled</name>
       <type>Main</type>
-      <value>mx_Field_2</value>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>focus-visible</value>
+      <value>mx_AccessibleButton mx_ToggleSwitch mx_ToggleSwitch_enabled</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_Field_2&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>ptnha19</value>
+      <value>id(&quot;mx_Dialog_Container&quot;)/div[@class=&quot;mx_Dialog_wrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_CreateRoomDialog mx_Dialog_fixedWidth&quot;]/form[1]/div[@class=&quot;mx_Dialog_content&quot;]/div[@class=&quot;mx_SettingsFlag mx_CreateRoomDialog_e2eSwitch&quot;]/div[@class=&quot;mx_AccessibleButton mx_ToggleSwitch mx_ToggleSwitch_enabled&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@id='mx_Field_2']</value>
+      <value>//div[@id='mx_Dialog_Container']/div/div/div[3]/form/div/div[4]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[2]/input</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable end-to-end encryption'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Private room (invite only)'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show advanced'])[1]/preceding::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Block anyone not part of matrix.org from ever joining this room.'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='mx_Field_8']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='mx_Field_5']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='mx_Field_3']</value>
+      <value>//div/div[4]/div</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Explore rooms_mx_AccessibleButton mx_Di_ac37a4</name>
+   <name>div_Create a private room_mx_AccessibleButt_34e55a</name>
    <tag></tag>
-   <elementGuidId>2ae90b26-0b45-4524-87b7-2e99f7aaf542</elementGuidId>
+   <elementGuidId>a925d085-a70b-48ce-b7ee-da692863fc58</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div/div</value>
+         <value>//div[@id='mx_Dialog_Container']/div/div/div[3]/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -56,27 +56,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_Dialog_StaticContainer&quot;)/div[@class=&quot;mx_Dialog_wrapper mx_Dialog_staticWrapper mx_RoomDirectory_dialogWrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_RoomDirectory_dialog mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_Dialog_header mx_Dialog_headerWithCancel&quot;]/div[@class=&quot;mx_AccessibleButton mx_Dialog_cancelButton&quot;]</value>
+      <value>id(&quot;mx_Dialog_Container&quot;)/div[@class=&quot;mx_Dialog_wrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_CreateRoomDialog mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_Dialog_header mx_Dialog_headerWithCancel&quot;]/div[@class=&quot;mx_AccessibleButton mx_Dialog_cancelButton&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div/div</value>
+      <value>//div[@id='mx_Dialog_Container']/div/div/div[3]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/div/div[3]/div/div</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[3]/div/div</value>
+      <value>//div[6]/div/div/div[3]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

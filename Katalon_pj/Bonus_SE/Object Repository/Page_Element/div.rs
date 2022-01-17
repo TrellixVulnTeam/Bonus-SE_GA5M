@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>label.mx_StyledRadioButton_innerLabel > div</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='mx_ServerPickerDialog']/div/label/div</value>
+         <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div[4]/div/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,10 +28,24 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_ServerPickerDialog&quot;)/div[@class=&quot;mx_StyledRadioButton mx_ServerPickerDialog_otherHomeserverRadio mx_StyledRadioButton_enabled&quot;]/label[@class=&quot;mx_StyledRadioButton_innerLabel&quot;]/div[1]</value>
+      <value>id(&quot;mx_Dialog_StaticContainer&quot;)/div[@class=&quot;mx_Dialog_wrapper mx_Dialog_staticWrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_InviteDialog_other mx_InviteDialog_hasFooter mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_InviteDialog_content&quot;]/div[@class=&quot;mx_InviteDialog_footer&quot;]/div[@class=&quot;mx_InviteDialog_footer_link&quot;]/div[@class=&quot;mx_AccessibleButton mx_InviteDialog_footer_link_copy&quot;]/div[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div[4]/div/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -71,13 +85,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/label/div</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div[4]/div/div/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

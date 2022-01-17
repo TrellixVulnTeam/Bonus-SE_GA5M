@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Create a new room_dirsearch</name>
+   <name>div_Private room (invite only)_1</name>
    <tag></tag>
-   <elementGuidId>99d8aa19-17a5-4b38-b256-824381f080e6</elementGuidId>
+   <elementGuidId>1637b820-46c1-409f-a206-aa0b99043d2b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;dirsearch&quot;]</value>
+         <key>XPATH</key>
+         <value>//div[@id='mx_JoinRuleDropdown__invite']/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='dirsearch']</value>
+         <key>CSS</key>
+         <value>div.mx_JoinRuleDropdown_invite</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>dirsearch</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mx_textinput_icon mx_textinput_search focus-visible</value>
+      <value>mx_JoinRuleDropdown_invite</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>text</name>
       <type>Main</type>
-      <value>Find a room… (e.g. #example:matrix.org)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>a</value>
+      <value>Private room (invite only)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_Dialog_StaticContainer&quot;)/div[@class=&quot;mx_Dialog_wrapper mx_Dialog_staticWrapper mx_RoomDirectory_dialogWrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_RoomDirectory_dialog mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_RoomDirectory&quot;]/div[@class=&quot;mx_RoomDirectory_list&quot;]/div[@class=&quot;mx_RoomDirectory_listheader&quot;]/div[@class=&quot;mx_DirectorySearchBox mx_RoomDirectory_searchbox mx_textinput&quot;]/input[@class=&quot;mx_textinput_icon mx_textinput_search focus-visible&quot;]</value>
+      <value>id(&quot;mx_JoinRuleDropdown__invite&quot;)/div[@class=&quot;mx_JoinRuleDropdown_invite&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@name='dirsearch']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div/div/div/input</value>
+      <value>//div[@id='mx_JoinRuleDropdown__invite']/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Public room'])[1]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topic (optional)'])[1]/following::div[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Public room'])[2]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#'])[1]/preceding::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Private room (invite only)']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//input</value>
+      <value>//div[3]/div/div[2]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>
