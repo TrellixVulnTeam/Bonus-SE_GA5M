@@ -12,6 +12,66 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>dd9cc34b-b546-4519-b3bb-a2a6231762ad</testSuiteGuid>
    <testCaseLink>
+      <guid>789f2e31-5c71-4a3b-a182-2c35dc685adf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/44.SignOutThroughSetting</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c4b7f25f-2b91-4597-b5d4-d798f1403a86</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/51.ChangeRoomName</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8da27ff7-ec82-4ccf-9236-45c65ed13839</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/54.ShareLinkToUser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>436dd6c0-0e75-4c74-ab5e-16b2d8a10b89</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/55.ShareLink</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>549f8ce1-674d-4f82-b313-a4d73b483642</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/56.SeeFileInRoom</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0026e646-5509-4b7a-9f6e-db362f2fd976</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/58.AdvancedInRoomSetting</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c5818e7c-b6e2-46f5-9d28-350db7d350d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/59.SearchInRoom</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4a007fea-cf44-4748-96fe-da981aac8dc4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/62.SignInWithoutVerify</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9461c2fb-49d4-4cad-9f9a-53fed86b46d6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/63.ServerOptions</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>35c65d23-e146-4560-84e9-799261d79a11</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/65.UploadSecurityKey</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>7e2cfcab-1038-4698-844f-b9ca6c63a644</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

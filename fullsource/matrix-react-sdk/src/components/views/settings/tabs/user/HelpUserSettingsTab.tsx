@@ -300,60 +300,6 @@ export default class HelpUserSettingsTab extends React.Component<IProps, IState>
 
         return (
             <div className="mx_SettingsTab mx_HelpUserSettingsTab">
-                <div className="mx_SettingsTab_heading">{ _t("Help & About") }</div>
-                { bugReportingSection }
-                <div className='mx_SettingsTab_section'>
-                    <span className='mx_SettingsTab_subheading'>{ _t("FAQ") }</span>
-                    <div className='mx_SettingsTab_subsectionText'>
-                        { faqText }
-                    </div>
-                    <AccessibleButton kind="primary" onClick={KeyboardShortcuts.toggleDialog}>
-                        { _t("Keyboard Shortcuts") }
-                    </AccessibleButton>
-                </div>
-                <div className='mx_SettingsTab_section mx_HelpUserSettingsTab_versions'>
-                    <span className='mx_SettingsTab_subheading'>{ _t("Versions") }</span>
-                    <div className='mx_SettingsTab_subsectionText'>
-                        <div className="mx_HelpUserSettingsTab_copy">
-                            { appVersion }<br />
-                            { olmVersion }<br />
-                            <AccessibleTooltipButton
-                                title={_t("Copy")}
-                                onClick={this.onCopyVersionClicked}
-                                className="mx_HelpUserSettingsTab_copyButton"
-                            />
-                        </div>
-                        { updateButton }
-                    </div>
-                </div>
-                { this.renderLegal() }
-                { this.renderCredits() }
-                <div className='mx_SettingsTab_section mx_HelpUserSettingsTab_versions'>
-                    <span className='mx_SettingsTab_subheading'>{ _t("Advanced") }</span>
-                    <div className='mx_SettingsTab_subsectionText'>
-                        { _t("Homeserver is") } <code>{ MatrixClientPeg.get().getHomeserverUrl() }</code><br />
-                        { _t("Identity server is") } <code>{ MatrixClientPeg.get().getIdentityServerUrl() }</code><br />
-                        <br />
-                        <details>
-                            <summary>{ _t("Access Token") }</summary><br />
-                            <b>{ _t("Your access token gives full access to your account."
-                               + " Do not share it with anyone." ) }</b>
-                            <div className="mx_HelpUserSettingsTab_copy">
-                                <code>{ MatrixClientPeg.get().getAccessToken() }</code>
-                                <AccessibleTooltipButton
-                                    title={_t("Copy")}
-                                    onClick={this.onAccessTokenCopyClick}
-                                    className="mx_HelpUserSettingsTab_copyButton"
-                                />
-                            </div>
-                        </details><br />
-                        <div className='mx_HelpUserSettingsTab_debugButton'>
-                            <AccessibleButton onClick={this.onClearCacheAndReload} kind='danger'>
-                                { _t("Clear cache and reload") }
-                            </AccessibleButton>
-                        </div>
-                    </div>
-                </div>
             </div>
         );
     }
