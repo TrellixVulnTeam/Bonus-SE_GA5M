@@ -41,11 +41,11 @@ WebUI.rightClick(findTestObject('Object Repository/Page_Element/span_H'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_Preferences'))
 
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Sections to show_mx_Checkbox_background'))
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Sections to show_mx_Checkbox_checkmark'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Preferences_mx_AccessibleButton mx_Dial_364915'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Khoa Dng Vn'))
 
 WebUI.closeBrowser()
 

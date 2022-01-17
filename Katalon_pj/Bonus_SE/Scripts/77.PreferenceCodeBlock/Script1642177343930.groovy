@@ -37,27 +37,17 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/img_Review_mx_BaseAvatar_image'))
+WebUI.rightClick(findTestObject('Object Repository/Page_Element/img_Review_mx_BaseAvatar_image'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/span_All settings'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_All settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/span_Preferences'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Enable automatic language detection for_7a18d5'))
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Preferences'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Enable automatic language detection for_7a18d5'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Enable automatic language detection for_7a18d5'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Enable automatic language detection for_9f13ec'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Enable automatic language detection for_9f13ec'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Enable automatic language detection for_9f13ec'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Settings_mx_AccessibleButton mx_Dialog__4987e8'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/img_Review_mx_BaseAvatar_image'))
 
 WebUI.closeBrowser()
 

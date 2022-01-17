@@ -6,12 +6,12 @@
    <elementGuidId>241f3f40-29ab-4a58-91cc-0c7ba6e0b109</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.mx_textinput_icon.mx_textinput_search.mx_SpaceHierarchy_search.focus-visible</value>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='a']</value>
+         <key>CSS</key>
+         <value>input.mx_textinput_icon.mx_textinput_search.mx_SpaceHierarchy_search.focus-visible</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -54,13 +54,6 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_RoomView_wrapper&quot;]/main[@class=&quot;mx_SpaceRoomView&quot;]/div[@class=&quot;mx_MainSplit&quot;]/div[@class=&quot;mx_SpaceRoomView_landing&quot;]/div[@class=&quot;mx_SearchBox mx_textinput&quot;]/input[@class=&quot;mx_textinput_icon mx_textinput_search mx_SpaceHierarchy_search focus-visible&quot;]</value>
@@ -70,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='a']</value>
+      <value>(//input[@value=''])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,12 +78,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//input[@value=''])[2]</value>
    </webElementXpaths>
 </WebElementEntity>

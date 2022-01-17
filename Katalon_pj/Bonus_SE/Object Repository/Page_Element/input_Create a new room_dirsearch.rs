@@ -6,12 +6,12 @@
    <elementGuidId>99d8aa19-17a5-4b38-b256-824381f080e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;dirsearch&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='dirsearch']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;dirsearch&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -58,13 +58,6 @@
       <type>Main</type>
       <value>id(&quot;mx_Dialog_StaticContainer&quot;)/div[@class=&quot;mx_Dialog_wrapper mx_Dialog_staticWrapper mx_RoomDirectory_dialogWrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_RoomDirectory_dialog mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_RoomDirectory&quot;]/div[@class=&quot;mx_RoomDirectory_list&quot;]/div[@class=&quot;mx_RoomDirectory_listheader&quot;]/div[@class=&quot;mx_DirectorySearchBox mx_RoomDirectory_searchbox mx_textinput&quot;]/input[@class=&quot;mx_textinput_icon mx_textinput_search focus-visible&quot;]</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>h</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -85,12 +78,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

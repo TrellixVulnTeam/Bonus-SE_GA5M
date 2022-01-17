@@ -6,12 +6,12 @@
    <elementGuidId>ed8ae687-ea08-4a73-adaa-717a04dc9071</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.mx_AccessibleButton.mx_Dialog_cancelButton</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mx_AccessibleButton.mx_Dialog_cancelButton</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

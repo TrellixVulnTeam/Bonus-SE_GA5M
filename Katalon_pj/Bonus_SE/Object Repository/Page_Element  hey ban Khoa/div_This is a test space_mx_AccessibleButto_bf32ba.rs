@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_This is a test space_mx_AccessibleButto_bf32ba</name>
+   <tag></tag>
+   <elementGuidId>df3f6fe4-8b62-4f3e-b7c6-f84193e6dc48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='matrixchat']/div/div[2]/div[3]/main/div/div/div[5]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mx_AccessibleButton.mx_SearchBox_closeButton</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mx_AccessibleButton mx_SearchBox_closeButton</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_RoomView_wrapper&quot;]/main[@class=&quot;mx_SpaceRoomView&quot;]/div[@class=&quot;mx_MainSplit&quot;]/div[@class=&quot;mx_SpaceRoomView_landing&quot;]/div[@class=&quot;mx_SearchBox mx_textinput mx_SearchBox_blurred&quot;]/div[@class=&quot;mx_AccessibleButton mx_SearchBox_closeButton&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='matrixchat']/div/div[2]/div[3]/main/div/div/div[5]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div[5]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

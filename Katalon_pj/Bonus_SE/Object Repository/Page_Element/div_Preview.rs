@@ -6,12 +6,12 @@
    <elementGuidId>b634427b-657f-4e9d-8306-ac65a886977f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.mx_RoomDirectory_preview > div.mx_AccessibleButton.mx_AccessibleButton_hasKind.mx_AccessibleButton_kind_secondary</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div/div[2]/div/ol/div/div/div[4]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mx_RoomDirectory_preview > div.mx_AccessibleButton.mx_AccessibleButton_hasKind.mx_AccessibleButton_kind_secondary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,21 +70,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='#matrix:matrix.org'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#nsrtgdhbxf:matrix.org'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://matrix.org/legal/code-of-conduct/'])[1]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='gteste'])[1]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Genshin Impact | 🇮🇩'])[1]/preceding::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create new room'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div[4]/div</value>
+      <value>//div/div[4]/div</value>
    </webElementXpaths>
 </WebElementEntity>

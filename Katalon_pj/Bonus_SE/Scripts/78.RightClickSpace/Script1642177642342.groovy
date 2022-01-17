@@ -44,5 +44,7 @@ WebUI.click(findTestObject('Object Repository/Page_Element/span_Manage  explore 
 WebUI.setText(findTestObject('Object Repository/Page_Element  hey ban Khoa/input_This is a test space_mx_textinput_ico_852234'), 
     'abc')
 
+WebUI.click(findTestObject('Object Repository/Page_Element  hey ban Khoa/div_This is a test space_mx_AccessibleButto_bf32ba'))
+
 WebUI.closeBrowser()
 

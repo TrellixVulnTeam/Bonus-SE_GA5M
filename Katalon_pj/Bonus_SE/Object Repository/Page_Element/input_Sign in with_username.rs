@@ -6,12 +6,12 @@
    <elementGuidId>7a843e8f-3814-4e6d-b263-4c8172a37328</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mx_Field_2</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='mx_Field_2']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mx_Field_2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -106,26 +106,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='mx_Field_8']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='mx_Field_5']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='mx_Field_3']</value>
    </webElementXpaths>
 </WebElementEntity>

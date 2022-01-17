@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>49.LogInFail</name>
+   <name>93.SendMessageExploreRoomCreateGroup</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f1f6d993-3d8a-4a58-b42b-d1a563617e6b</testCaseGuid>
+   <testCaseGuid>fa9f2ec6-3682-4898-af2f-d8705e7e1993</testCaseGuid>
 </TestCaseEntity>
