@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>label.mx_StyledRadioButton.mx_JoinRuleSettings_radioButton.mx_StyledRadioButton_enabled > div > div</value>
+         <value>label.mx_StyledRadioButton.mx_StyledRadioButton_enabled > div > div</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mx_SpaceSettingsDialog']/div/div[2]/div/div/fieldset/label/div/div</value>
+         <value>//form[@id='mx_ServerPickerDialog']/label/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_SpaceSettingsDialog&quot;)/div[@class=&quot;mx_TabbedView mx_TabbedView_tabsOnLeft&quot;]/div[@class=&quot;mx_TabbedView_tabPanel&quot;]/div[@class=&quot;mx_AutoHideScrollbar mx_TabbedView_tabPanelContent&quot;]/div[@class=&quot;mx_SettingsTab&quot;]/fieldset[@class=&quot;mx_SettingsFieldset&quot;]/label[@class=&quot;mx_StyledRadioButton mx_JoinRuleSettings_radioButton mx_StyledRadioButton_enabled&quot;]/div[1]/div[1]</value>
+      <value>id(&quot;mx_ServerPickerDialog&quot;)/label[@class=&quot;mx_StyledRadioButton mx_StyledRadioButton_enabled&quot;]/div[1]/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mx_SpaceSettingsDialog']/div/div[2]/div/div/fieldset/label/div/div</value>
+      <value>//form[@id='mx_ServerPickerDialog']/label/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -43,6 +43,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mx_SpaceSettingsDialog']/div/div[2]/div/div/fieldset/label/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

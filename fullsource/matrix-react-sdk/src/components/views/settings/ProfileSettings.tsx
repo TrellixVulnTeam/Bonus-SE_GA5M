@@ -181,6 +181,51 @@ export default class ProfileSettings extends React.Component<{}, IState> {
                 noValidate={true}
                 className="mx_ProfileSettings_profileForm"
             >
+                <input
+                    type="file"
+                    ref={this.avatarUpload}
+                    className="mx_ProfileSettings_avatarUpload"
+                    onChange={this.onAvatarChanged}
+                    accept="image/*"
+                />
+                <div className="mx_ProfileSettings_profile">
+                    <div className="mx_ProfileSettings_controls">
+                        <span className="mx_SettingsTab_subheading">{ _t("Profile") }</span>
+                        <Field
+                            label={_t("Display Name")}
+                            type="text"
+                            value={this.state.displayName}
+                            autoComplete="off"
+                            onChange={this.onDisplayNameChanged}
+                        />
+                        <p>
+                            { this.state.userId }
+                            { hostingSignup }
+                        </p>
+                    </div>
+                    <AvatarSetting
+                        avatarUrl={this.state.avatarUrl?.toString()}
+                        avatarName={this.state.displayName || this.state.userId}
+                        avatarAltText={_t("Profile picture")}
+                        uploadAvatar={this.uploadAvatar}
+                        removeAvatar={this.removeAvatar} />
+                </div>
+                <div className="mx_ProfileSettings_buttons">
+                    <AccessibleButton
+                        onClick={this.cancelProfileChanges}
+                        kind="link"
+                        disabled={!this.state.enableProfileSave}
+                    >
+                        { _t("Cancel") }
+                    </AccessibleButton>
+                    <AccessibleButton
+                        onClick={this.saveProfile}
+                        kind="primary"
+                        disabled={!this.state.enableProfileSave}
+                    >
+                        { _t("Save") }
+                    </AccessibleButton>
+                </div>
             </form>
         );
     }

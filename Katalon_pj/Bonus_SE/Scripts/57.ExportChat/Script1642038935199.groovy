@@ -43,15 +43,11 @@ WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_Tr C
 
 WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_Export chat'))
 
-WebUI.delay(10)
-
 WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/button_Export'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/button_OK'))
-
-WebUI.delay(10)
 
 WebUI.closeBrowser()
 

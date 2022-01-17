@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>aria-activedescendant</name>
       <type>Main</type>
-      <value>mx_LanguageDropdown__ca</value>
+      <value>mx_LanguageDropdown__id</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>t</value>
+      <value>D</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

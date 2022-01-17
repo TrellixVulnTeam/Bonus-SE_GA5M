@@ -650,6 +650,11 @@ export default class Notifications extends React.PureComponent<IProps, IState> {
         }
 
         return <div className='mx_UserNotifSettings'>
+            { this.renderTopSection() }
+            { this.renderCategory(RuleClass.VectorGlobal) }
+            { this.renderCategory(RuleClass.VectorMentions) }
+            { this.renderCategory(RuleClass.VectorOther) }
+            { this.renderTargets() }
         </div>;
     }
 }

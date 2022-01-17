@@ -363,6 +363,43 @@ export default class ChangePassword extends React.Component<IProps, IState> {
             case Phase.Edit:
                 return (
                     <form className={this.props.className} onSubmit={this.onClickChange}>
+                        <div className={rowClassName}>
+                            <Field
+                                ref={field => this[FIELD_OLD_PASSWORD] = field}
+                                type="password"
+                                label={_t('Current password')}
+                                value={this.state.oldPassword}
+                                onChange={this.onChangeOldPassword}
+                                onValidate={this.onOldPasswordValidate}
+                            />
+                        </div>
+                        <div className={rowClassName}>
+                            <PassphraseField
+                                fieldRef={field => this[FIELD_NEW_PASSWORD] = field}
+                                type="password"
+                                label={_td("New Password")}
+                                minScore={PASSWORD_MIN_SCORE}
+                                value={this.state.newPassword}
+                                autoFocus={this.props.autoFocusNewPasswordInput}
+                                onChange={this.onChangeNewPassword}
+                                onValidate={this.onNewPasswordValidate}
+                                autoComplete="new-password"
+                            />
+                        </div>
+                        <div className={rowClassName}>
+                            <Field
+                                ref={field => this[FIELD_NEW_PASSWORD_CONFIRM] = field}
+                                type="password"
+                                label={_t("Confirm password")}
+                                value={this.state.newPasswordConfirm}
+                                onChange={this.onChangeNewPasswordConfirm}
+                                onValidate={this.onNewPasswordConfirmValidate}
+                                autoComplete="new-password"
+                            />
+                        </div>
+                        <AccessibleButton className={buttonClassName} kind={this.props.buttonKind} onClick={this.onClickChange}>
+                            { this.props.buttonLabel || _t('Change Password') }
+                        </AccessibleButton>
                     </form>
                 );
             case Phase.Uploading:

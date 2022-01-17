@@ -93,4 +93,11 @@
       <type>Main</type>
       <value>//div[2]/div/a/div</value>
    </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
 </WebElementEntity>

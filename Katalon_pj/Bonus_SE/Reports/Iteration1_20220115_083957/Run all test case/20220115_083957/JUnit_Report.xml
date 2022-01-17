@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite" time="8423.973" tests="20" failures="0" errors="0">
+   <testsuite name="Test Suite" tests="20" failures="0" errors="0" time="8423.973" skipped="0" timestamp="2022-01-15 08:40:04" hostname="Pikachu - PIKACHU-PC" id="Test Suites/Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Pikachu\\Documents\\Bonus-SE\\Katalon_pj\\Bonus_SE\\Reports\\20220115_083956\\Test Suite\\20220115_083957"/>
+         <property name="logFiles" value="C:\\Users\\Pikachu\\Documents\\Bonus-SE\\Katalon_pj\\Bonus_SE\\Reports\\20220115_083956\\Test Suite\\20220115_083957\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Pikachu - PIKACHU-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.1.152"/>
+         <property name="sessionId" value="92993ad6f18abf1959e17ea9976b5449"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.Sign_in_Pass" time="344.995" classname="Test Cases/1.Sign_in_Pass" status="PASSED">
+         <system-out><![CDATA[2022-01-15 08:40:04 - [TEST_CASE][PASSED] - Test Cases/1.Sign_in_Pass: Test Cases/1.Sign_in_Pass
+
+2022-01-15 08:40:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 08:40:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 08:40:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 08:40:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 08:40:08 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 08:40:11 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 08:40:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-15 08:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-15 08:40:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 08:41:15 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 08:41:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 08:41:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 08:41:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 08:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 08:42:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 08:42:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 08:42:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Security Key")): Object: 'Object Repository/Page_Element/div_Security Key' is clicked on
+
+2022-01-15 08:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Security Key' is clicked on
+
+2022-01-15 08:43:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 08:43:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 08:43:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 08:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 08:44:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 08:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 08:44:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 08:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 08:45:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_This room is public_mx_ContextualMenu_b_fc4f75")): Object: 'Object Repository/Page_Element/div_This room is public_mx_ContextualMenu_b_fc4f75' is clicked on
+
+2022-01-15 08:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_This room is public_mx_ContextualMenu_b_fc4f75' is clicked on
+
+2022-01-15 08:45:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 08:45:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.Sign_in_Fail" time="154.696" classname="Test Cases/2.Sign_in_Fail" status="PASSED">
+         <system-out><![CDATA[2022-01-15 08:45:49 - [TEST_CASE][PASSED] - Test Cases/2.Sign_in_Fail: Test Cases/2.Sign_in_Fail
+
+2022-01-15 08:45:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 08:45:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 08:45:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 08:45:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 08:45:51 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 08:45:52 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 08:45:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-15 08:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-15 08:46:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptsajfk"): Text 'ptsajfk' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 08:47:23 - [MESSAGE][PASSED] - Text 'ptsajfk' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 08:47:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "nLM6O7ELZdU="): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 08:47:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 08:47:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 08:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 08:48:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 08:48:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3.Log_out" time="366.626" classname="Test Cases/3.Log_out" status="PASSED">
+         <system-out><![CDATA[2022-01-15 08:48:24 - [TEST_CASE][PASSED] - Test Cases/3.Log_out: Test Cases/3.Log_out
+
+2022-01-15 08:48:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 08:48:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 08:48:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 08:48:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 08:48:25 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 08:48:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 08:48:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-15 08:48:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-15 08:48:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 08:49:58 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 08:49:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 08:50:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 08:50:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 08:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 08:50:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 08:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 08:51:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 08:51:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 08:51:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 08:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 08:52:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 08:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 08:52:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 08:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 08:53:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Sign out")): Object: 'Object Repository/Page_Element/span_Sign out' is clicked on
+
+2022-01-15 08:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Sign out' is clicked on
+
+2022-01-15 08:54:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Sign out")): Object: 'Object Repository/Page_Element/button_Sign out' is clicked on
+
+2022-01-15 08:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Sign out' is clicked on
+
+2022-01-15 08:54:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 08:54:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4.Create_private_room" time="486.741" classname="Test Cases/4.Create_private_room" status="PASSED">
+         <system-out><![CDATA[2022-01-15 08:54:31 - [TEST_CASE][PASSED] - Test Cases/4.Create_private_room: Test Cases/4.Create_private_room
+
+2022-01-15 08:54:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 08:54:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 08:54:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 08:54:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 08:54:32 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 08:54:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 08:54:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-15 08:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-15 08:55:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 08:56:04 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 08:56:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 08:56:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 08:56:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 08:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 08:57:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 08:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 08:57:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/p_Use your Security Key to continue")): Object: 'Object Repository/Page_Element/p_Use your Security Key to continue' is clicked on
+
+2022-01-15 08:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/p_Use your Security Key to continue' is clicked on
+
+2022-01-15 08:58:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 08:58:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 08:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 08:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 08:59:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 08:59:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 08:59:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e")): Object: 'Object Repository/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-15 09:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-15 09:00:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Create new room")): Object: 'Object Repository/Page_Element/span_Create new room' is clicked on
+
+2022-01-15 09:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Create new room' is clicked on
+
+2022-01-15 09:00:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Create a private room_mx_Field_5"), "Room1"): Text 'Room1' is set on object 'Object Repository/Page_Element/input_Create a private room_mx_Field_5'
+
+2022-01-15 09:01:36 - [MESSAGE][PASSED] - Text 'Room1' is set on object 'Object Repository/Page_Element/input_Create a private room_mx_Field_5'
+
+2022-01-15 09:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Create Room")): Object: 'Object Repository/Page_Element/button_Create Room' is clicked on
+
+2022-01-15 09:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Create Room' is clicked on
+
+2022-01-15 09:02:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Empty room/div_Room1")): Object: 'Object Repository/Page_Element  Empty room/div_Room1' is clicked on
+
+2022-01-15 09:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Empty room/div_Room1' is clicked on
+
+2022-01-15 09:02:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 09:02:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6.Search_join_public_room" time="486.845" classname="Test Cases/6.Search_join_public_room" status="PASSED">
+         <system-out><![CDATA[2022-01-15 09:02:37 - [TEST_CASE][PASSED] - Test Cases/6.Search_join_public_room: Test Cases/6.Search_join_public_room
+
+2022-01-15 09:02:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 09:02:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 09:02:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 09:02:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 09:02:39 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:02:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:02:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-15 09:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-15 09:03:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:04:11 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:04:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:04:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:04:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:05:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:05:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:06:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:07:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e")): Object: 'Object Repository/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-15 09:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-15 09:07:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Explore public rooms")): Object: 'Object Repository/Page_Element/span_Explore public rooms' is clicked on
+
+2022-01-15 09:08:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Explore public rooms' is clicked on
+
+2022-01-15 09:08:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Create a new room_dirsearch"), "haha4"): Text 'haha4' is set on object 'Object Repository/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-15 09:09:13 - [MESSAGE][PASSED] - Text 'haha4' is set on object 'Object Repository/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-15 09:09:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_hahahaha4duangaomatrix.org")): Object: 'Object Repository/Page_Element/div_hahahaha4duangaomatrix.org' is clicked on
+
+2022-01-15 09:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_hahahaha4duangaomatrix.org' is clicked on
+
+2022-01-15 09:09:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Join")): Object: 'Object Repository/Page_Element/div_Join' is clicked on
+
+2022-01-15 09:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Join' is clicked on
+
+2022-01-15 09:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  haha/div_haha")): Object: 'Object Repository/Page_Element  haha/div_haha' is clicked on
+
+2022-01-15 09:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  haha/div_haha' is clicked on
+
+2022-01-15 09:10:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 09:10:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/23.ChangeFronSizeValid" time="396.527" classname="Test Cases/23.ChangeFronSizeValid" status="PASSED">
+         <system-out><![CDATA[2022-01-15 09:10:44 - [TEST_CASE][PASSED] - Test Cases/23.ChangeFronSizeValid: Test Cases/23.ChangeFronSizeValid
+
+2022-01-15 09:10:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 09:10:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 09:10:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 09:10:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 09:10:46 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:10:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/a_Sign In")): Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-15 09:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/a_Sign In' is clicked on
+
+2022-01-15 09:11:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:12:18 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:12:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:12:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:12:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:13:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:13:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:14:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:14:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:15:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 09:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 09:15:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_All settings")): Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 09:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 09:16:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Appearance")): Object: 'Object Repository/Page_Element/span_Appearance' is clicked on
+
+2022-01-15 09:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Appearance' is clicked on
+
+2022-01-15 09:16:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Aa_mx_Slider_dot mx_Slider_dotActive")): Object: 'Object Repository/Page_Element/div_Aa_mx_Slider_dot mx_Slider_dotActive' is clicked on
+
+2022-01-15 09:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Aa_mx_Slider_dot mx_Slider_dotActive' is clicked on
+
+2022-01-15 09:17:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 09:17:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/24.ChangeDisplayName" time="426.711" classname="Test Cases/24.ChangeDisplayName" status="PASSED">
+         <system-out><![CDATA[2022-01-15 09:17:21 - [TEST_CASE][PASSED] - Test Cases/24.ChangeDisplayName: Test Cases/24.ChangeDisplayName
+
+2022-01-15 09:17:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 09:17:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 09:17:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 09:17:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 09:17:22 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:17:24 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:17:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 09:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 09:17:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:18:55 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:18:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:19:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:19:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:20:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:20:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:20:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:21:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:21:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:21:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Review_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 09:22:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 09:22:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_All settings")): Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 09:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 09:22:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Profile_mx_Field_5"), "ptnha1"): Text 'ptnha1' is set on object 'Object Repository/Page_Element/input_Profile_mx_Field_5'
+
+2022-01-15 09:23:57 - [MESSAGE][PASSED] - Text 'ptnha1' is set on object 'Object Repository/Page_Element/input_Profile_mx_Field_5'
+
+2022-01-15 09:23:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Save")): Object: 'Object Repository/Page_Element/div_Save' is clicked on
+
+2022-01-15 09:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Save' is clicked on
+
+2022-01-15 09:24:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 09:24:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/25.ChangePasswordInvalid" time="456.904" classname="Test Cases/25.ChangePasswordInvalid" status="PASSED">
+         <system-out><![CDATA[2022-01-15 09:24:27 - [TEST_CASE][PASSED] - Test Cases/25.ChangePasswordInvalid: Test Cases/25.ChangePasswordInvalid
+
+2022-01-15 09:24:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 09:24:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 09:24:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 09:24:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 09:24:29 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:24:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:24:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 09:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 09:25:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:26:01 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:26:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:26:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:26:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:27:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:27:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:27:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:28:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:28:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:28:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:29:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:29:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 09:29:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 09:29:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_All settings")): Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 09:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 09:30:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Account_mx_Field_7"), "cH9eeb27K7k="): Text ****** has been set on object 'Object Repository/Page_Element/input_Account_mx_Field_7'
+
+2022-01-15 09:30:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Account_mx_Field_7'
+
+2022-01-15 09:30:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Current password_mx_Field_8"), "YYdYgnpZIxc="): Text ****** has been set on object 'Object Repository/Page_Element/input_Current password_mx_Field_8'
+
+2022-01-15 09:31:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Current password_mx_Field_8'
+
+2022-01-15 09:31:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_New Password_mx_Field_9"), "YYdYgnpZIxc="): Text ****** has been set on object 'Object Repository/Page_Element/input_New Password_mx_Field_9'
+
+2022-01-15 09:31:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_New Password_mx_Field_9'
+
+2022-01-15 09:31:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Change Password")): Object: 'Object Repository/Page_Element/div_Change Password' is clicked on
+
+2022-01-15 09:32:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Change Password' is clicked on
+
+2022-01-15 09:32:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 09:32:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/28.EnableDesktopNotificationsForThisSession" time="426.74" classname="Test Cases/28.EnableDesktopNotificationsForThisSession" status="PASSED">
+         <system-out><![CDATA[2022-01-15 09:32:04 - [TEST_CASE][PASSED] - Test Cases/28.EnableDesktopNotificationsForThisSession: Test Cases/28.EnableDesktopNotificationsForThisSession
+
+2022-01-15 09:32:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 09:32:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 09:32:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 09:32:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 09:32:06 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:32:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:32:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 09:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 09:32:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:33:38 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:33:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:34:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:34:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:34:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:35:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:35:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:36:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 09:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 09:37:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Notifications")): Object: 'Object Repository/Page_Element/span_Notifications' is clicked on
+
+2022-01-15 09:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Notifications' is clicked on
+
+2022-01-15 09:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Enable desktop notifications for this s_6cd3cd")): Object: 'Object Repository/Page_Element/div_Enable desktop notifications for this s_6cd3cd' is clicked on
+
+2022-01-15 09:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Enable desktop notifications for this s_6cd3cd' is clicked on
+
+2022-01-15 09:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Enable desktop notifications for this s_6cd3cd")): Object: 'Object Repository/Page_Element/div_Enable desktop notifications for this s_6cd3cd' is clicked on
+
+2022-01-15 09:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Enable desktop notifications for this s_6cd3cd' is clicked on
+
+2022-01-15 09:38:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Enable desktop notifications for this s_6cd3cd_1")): Object: 'Object Repository/Page_Element/div_Enable desktop notifications for this s_6cd3cd_1' is clicked on
+
+2022-01-15 09:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Enable desktop notifications for this s_6cd3cd_1' is clicked on
+
+2022-01-15 09:39:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 09:39:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/29.EnableEmailNotifications" time="396.697" classname="Test Cases/29.EnableEmailNotifications" status="PASSED">
+         <system-out><![CDATA[2022-01-15 09:39:11 - [TEST_CASE][PASSED] - Test Cases/29.EnableEmailNotifications: Test Cases/29.EnableEmailNotifications
+
+2022-01-15 09:39:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 09:39:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 09:39:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 09:39:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 09:39:13 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:39:14 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:39:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 09:39:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 09:39:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:40:45 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:40:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:41:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:41:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:41:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:42:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:42:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:42:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:43:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:43:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 09:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 09:44:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Notifications")): Object: 'Object Repository/Page_Element/span_Notifications' is clicked on
+
+2022-01-15 09:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Notifications' is clicked on
+
+2022-01-15 09:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Enable email notifications for selena.n_56c593")): Object: 'Object Repository/Page_Element/div_Enable email notifications for selena.n_56c593' is clicked on
+
+2022-01-15 09:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Enable email notifications for selena.n_56c593' is clicked on
+
+2022-01-15 09:45:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Enable email notifications for selena.n_56c593_1")): Object: 'Object Repository/Page_Element/div_Enable email notifications for selena.n_56c593_1' is clicked on
+
+2022-01-15 09:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Enable email notifications for selena.n_56c593_1' is clicked on
+
+2022-01-15 09:45:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 09:45:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/30.ReferencesRoomList" time="487.151" classname="Test Cases/30.ReferencesRoomList" status="PASSED">
+         <system-out><![CDATA[2022-01-15 09:45:48 - [TEST_CASE][PASSED] - Test Cases/30.ReferencesRoomList: Test Cases/30.ReferencesRoomList
+
+2022-01-15 09:45:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 09:45:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 09:45:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 09:45:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 09:45:49 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:45:51 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:45:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 09:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 09:46:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:47:22 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:47:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:47:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:47:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:48:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:48:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:48:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:48:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:49:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:49:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:50:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_P")): Object: 'Object Repository/Page_Element/span_P' is clicked on
+
+2022-01-15 09:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_P' is clicked on
+
+2022-01-15 09:50:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_All settings")): Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 09:51:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 09:51:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Preferences")): Object: 'Object Repository/Page_Element/span_Preferences' is clicked on
+
+2022-01-15 09:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Preferences' is clicked on
+
+2022-01-15 09:51:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_bf3284")): Object: 'Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_bf3284' is clicked on
+
+2022-01-15 09:52:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_bf3284' is clicked on
+
+2022-01-15 09:52:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_2eb3ce")): Object: 'Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_2eb3ce' is clicked on
+
+2022-01-15 09:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_2eb3ce' is clicked on
+
+2022-01-15 09:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_2eb3ce")): Object: 'Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_2eb3ce' is clicked on
+
+2022-01-15 09:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_2eb3ce' is clicked on
+
+2022-01-15 09:53:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_concat(All rooms you, , re in will appe_115007")): Object: 'Object Repository/Page_Element/div_concat(All rooms you, , re in will appe_115007' is clicked on
+
+2022-01-15 09:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_concat(All rooms you, , re in will appe_115007' is clicked on
+
+2022-01-15 09:53:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 09:53:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/31.FAQ" time="517.134" classname="Test Cases/31.FAQ" status="PASSED">
+         <system-out><![CDATA[2022-01-15 09:53:55 - [TEST_CASE][PASSED] - Test Cases/31.FAQ: Test Cases/31.FAQ
+
+2022-01-15 09:53:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 09:53:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 09:53:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 09:53:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 09:53:56 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:53:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 09:53:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 09:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 09:54:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Sign in with_username")): Object: 'Object Repository/Page_Element/input_Sign in with_username' is clicked on
+
+2022-01-15 09:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Sign in with_username' is clicked on
+
+2022-01-15 09:54:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:55:59 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 09:55:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:56:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 09:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 09:56:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 09:57:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:58:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 09:58:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:58:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 09:58:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 09:59:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 09:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 09:59:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_All settings")): Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 10:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 10:00:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Help  About")): Object: 'Object Repository/Page_Element/span_Help  About' is clicked on
+
+2022-01-15 10:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Help  About' is clicked on
+
+2022-01-15 10:00:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Keyboard Shortcuts")): Object: 'Object Repository/Page_Element/div_Keyboard Shortcuts' is clicked on
+
+2022-01-15 10:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Keyboard Shortcuts' is clicked on
+
+2022-01-15 10:01:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Keyboard Shortcuts_mx_AccessibleButton _622478")): Object: 'Object Repository/Page_Element/div_Keyboard Shortcuts_mx_AccessibleButton _622478' is clicked on
+
+2022-01-15 10:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Keyboard Shortcuts_mx_AccessibleButton _622478' is clicked on
+
+2022-01-15 10:01:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Settings_mx_AccessibleButton mx_Dialog__4987e8")): Object: 'Object Repository/Page_Element/div_Settings_mx_AccessibleButton mx_Dialog__4987e8' is clicked on
+
+2022-01-15 10:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Settings_mx_AccessibleButton mx_Dialog__4987e8' is clicked on
+
+2022-01-15 10:02:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 10:02:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 10:02:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 10:02:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/33.SettingVoiceVideo" time="486.822" classname="Test Cases/33.SettingVoiceVideo" status="PASSED">
+         <system-out><![CDATA[2022-01-15 10:02:32 - [TEST_CASE][PASSED] - Test Cases/33.SettingVoiceVideo: Test Cases/33.SettingVoiceVideo
+
+2022-01-15 10:02:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 10:02:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 10:02:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 10:02:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 10:02:34 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:02:35 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:02:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:03:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:04:06 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:04:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:04:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:05:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:05:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:05:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:05:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:06:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:06:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:06:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:07:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 10:07:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 10:07:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_All settings")): Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 10:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 10:08:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Voice  Video")): Object: 'Object Repository/Page_Element/span_Voice  Video' is clicked on
+
+2022-01-15 10:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Voice  Video' is clicked on
+
+2022-01-15 10:08:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Mirror local video feed_mx_AccessibleBu_eb52dd")): Object: 'Object Repository/Page_Element/div_Mirror local video feed_mx_AccessibleBu_eb52dd' is clicked on
+
+2022-01-15 10:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Mirror local video feed_mx_AccessibleBu_eb52dd' is clicked on
+
+2022-01-15 10:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Mirror local video feed_mx_ToggleSwitch_ball")): Object: 'Object Repository/Page_Element/div_Mirror local video feed_mx_ToggleSwitch_ball' is clicked on
+
+2022-01-15 10:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Mirror local video feed_mx_ToggleSwitch_ball' is clicked on
+
+2022-01-15 10:09:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Settings_mx_AccessibleButton mx_Dialog__4987e8")): Object: 'Object Repository/Page_Element/div_Settings_mx_AccessibleButton mx_Dialog__4987e8' is clicked on
+
+2022-01-15 10:10:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Settings_mx_AccessibleButton mx_Dialog__4987e8' is clicked on
+
+2022-01-15 10:10:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 10:10:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 10:10:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 10:10:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/34.ExploreRoom" time="456.409" classname="Test Cases/34.ExploreRoom" status="PASSED">
+         <system-out><![CDATA[2022-01-15 10:10:39 - [TEST_CASE][PASSED] - Test Cases/34.ExploreRoom: Test Cases/34.ExploreRoom
+
+2022-01-15 10:10:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 10:10:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 10:10:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 10:10:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 10:10:40 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:10:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:10:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:12:13 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:12:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:12:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:13:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:14:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:14:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:15:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:15:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c")): Object: 'Object Repository/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c' is clicked on
+
+2022-01-15 10:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c' is clicked on
+
+2022-01-15 10:15:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Create a new room_dirsearch"), "abc"): Text 'abc' is set on object 'Object Repository/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-15 10:16:44 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-15 10:16:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_(matrix.org)")): Object: 'Object Repository/Page_Element/span_(matrix.org)' is clicked on
+
+2022-01-15 10:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_(matrix.org)' is clicked on
+
+2022-01-15 10:17:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_This room is public_mx_ContextualMenu_b_fc4f75")): Object: 'Object Repository/Page_Element/div_This room is public_mx_ContextualMenu_b_fc4f75' is clicked on
+
+2022-01-15 10:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_This room is public_mx_ContextualMenu_b_fc4f75' is clicked on
+
+2022-01-15 10:17:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Explore rooms_mx_AccessibleButton mx_Di_ac37a4")): Object: 'Object Repository/Page_Element/div_Explore rooms_mx_AccessibleButton mx_Di_ac37a4' is clicked on
+
+2022-01-15 10:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Explore rooms_mx_AccessibleButton mx_Di_ac37a4' is clicked on
+
+2022-01-15 10:18:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 10:18:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/35.ExpandPeopleBar" time="396.548" classname="Test Cases/35.ExpandPeopleBar" status="PASSED">
+         <system-out><![CDATA[2022-01-15 10:18:15 - [TEST_CASE][PASSED] - Test Cases/35.ExpandPeopleBar: Test Cases/35.ExpandPeopleBar
+
+2022-01-15 10:18:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 10:18:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 10:18:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 10:18:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 10:18:17 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:18:18 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:18:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:18:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:19:49 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:19:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:20:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:20:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:20:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:21:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:21:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:21:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:22:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:22:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Favorites_mx_RoomSublist_collapseBtn")): Object: 'Object Repository/Page_Element/span_Favorites_mx_RoomSublist_collapseBtn' is clicked on
+
+2022-01-15 10:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Favorites_mx_RoomSublist_collapseBtn' is clicked on
+
+2022-01-15 10:23:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Favorites_mx_RoomSublist_collapseBtn m_10447f")): Object: 'Object Repository/Page_Element/span_Favorites_mx_RoomSublist_collapseBtn m_10447f' is clicked on
+
+2022-01-15 10:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Favorites_mx_RoomSublist_collapseBtn m_10447f' is clicked on
+
+2022-01-15 10:23:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Tr Cao Thin")): Object: 'Object Repository/Page_Element/div_Tr Cao Thin' is clicked on
+
+2022-01-15 10:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Tr Cao Thin' is clicked on
+
+2022-01-15 10:24:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Tr Cao Thin/div_Khoa Dng Vn")): Object: 'Object Repository/Page_Element  Tr Cao Thin/div_Khoa Dng Vn' is clicked on
+
+2022-01-15 10:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Tr Cao Thin/div_Khoa Dng Vn' is clicked on
+
+2022-01-15 10:24:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 10:24:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/37.SettingPeople" time="426.582" classname="Test Cases/37.SettingPeople" status="PASSED">
+         <system-out><![CDATA[2022-01-15 10:24:52 - [TEST_CASE][PASSED] - Test Cases/37.SettingPeople: Test Cases/37.SettingPeople
+
+2022-01-15 10:24:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 10:24:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 10:24:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 10:24:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 10:24:53 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:24:55 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:24:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:25:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:26:26 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:26:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:26:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:27:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:27:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:28:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:28:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:28:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:28:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:29:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Tr Cao Thin")): Object: 'Object Repository/Page_Element/div_Tr Cao Thin' is clicked on
+
+2022-01-15 10:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Tr Cao Thin' is clicked on
+
+2022-01-15 10:29:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin_mx_AccessibleButton mx_Room_04dc30")): Object: 'Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin_mx_AccessibleButton mx_Room_04dc30' is clicked on
+
+2022-01-15 10:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin_mx_AccessibleButton mx_Room_04dc30' is clicked on
+
+2022-01-15 10:30:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Tr Cao Thin/span_Settings")): Object: 'Object Repository/Page_Element  Tr Cao Thin/span_Settings' is clicked on
+
+2022-01-15 10:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Tr Cao Thin/span_Settings' is clicked on
+
+2022-01-15 10:30:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Tr Cao Thin/div_Room Settings - Tr Cao Thin_mx_Accessib_be264e")): Object: 'Object Repository/Page_Element  Tr Cao Thin/div_Room Settings - Tr Cao Thin_mx_Accessib_be264e' is clicked on
+
+2022-01-15 10:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Tr Cao Thin/div_Room Settings - Tr Cao Thin_mx_Accessib_be264e' is clicked on
+
+2022-01-15 10:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin")): Object: 'Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin' is clicked on
+
+2022-01-15 10:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin' is clicked on
+
+2022-01-15 10:31:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 10:31:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/38.TurnOffOnNotiPeople" time="396.412" classname="Test Cases/38.TurnOffOnNotiPeople" status="PASSED">
+         <system-out><![CDATA[2022-01-15 10:31:58 - [TEST_CASE][PASSED] - Test Cases/38.TurnOffOnNotiPeople: Test Cases/38.TurnOffOnNotiPeople
+
+2022-01-15 10:31:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 10:31:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 10:31:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 10:32:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 10:32:00 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:32:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:32:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:32:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:33:32 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:33:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:34:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:34:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:34:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:35:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:35:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:35:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:36:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:36:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Tr Cao Thin")): Object: 'Object Repository/Page_Element/div_Tr Cao Thin' is clicked on
+
+2022-01-15 10:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Tr Cao Thin' is clicked on
+
+2022-01-15 10:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin_mx_AccessibleButton mx_Room_44fb40")): Object: 'Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin_mx_AccessibleButton mx_Room_44fb40' is clicked on
+
+2022-01-15 10:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin_mx_AccessibleButton mx_Room_44fb40' is clicked on
+
+2022-01-15 10:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Tr Cao Thin/span_None")): Object: 'Object Repository/Page_Element  Tr Cao Thin/span_None' is clicked on
+
+2022-01-15 10:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Tr Cao Thin/span_None' is clicked on
+
+2022-01-15 10:38:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  Tr Cao Thin/span_Use default")): Object: 'Object Repository/Page_Element  Tr Cao Thin/span_Use default' is clicked on
+
+2022-01-15 10:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  Tr Cao Thin/span_Use default' is clicked on
+
+2022-01-15 10:38:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 10:38:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/41.ChangeLanguage" time="671.182" classname="Test Cases/41.ChangeLanguage" status="PASSED">
+         <system-out><![CDATA[2022-01-15 10:38:35 - [TEST_CASE][PASSED] - Test Cases/41.ChangeLanguage: Test Cases/41.ChangeLanguage
+
+2022-01-15 10:38:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 10:38:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 10:38:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 10:38:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 10:38:36 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:38:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:38:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:39:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:40:08 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:40:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:40:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:40:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:41:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:41:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:42:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:42:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:42:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:43:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Review_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 10:43:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 10:43:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_All settings")): Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 10:44:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_All settings' is clicked on
+
+2022-01-15 10:44:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_English (US)")): Object: 'Object Repository/Page_Element/div_English (US)' is clicked on
+
+2022-01-15 10:44:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_English (US)' is clicked on
+
+2022-01-15 10:44:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Language and region_mx_LanguageDropdo_2fd689"), "Ti"): Text 'Ti' is set on object 'Object Repository/Page_Element/input_Language and region_mx_LanguageDropdo_2fd689'
+
+2022-01-15 10:45:41 - [MESSAGE][PASSED] - Text 'Ti' is set on object 'Object Repository/Page_Element/input_Language and region_mx_LanguageDropdo_2fd689'
+
+2022-01-15 10:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Ting Vit")): Object: 'Object Repository/Page_Element/div_Ting Vit' is clicked on
+
+2022-01-15 10:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Ting Vit' is clicked on
+
+2022-01-15 10:46:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/img_Review_mx_BaseAvatar_image")): Object: 'Object Repository/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 10:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-15 10:46:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Bo mt  Quyn ring t")): Object: 'Object Repository/Page_Element/span_Bo mt  Quyn ring t' is clicked on
+
+2022-01-15 10:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Bo mt  Quyn ring t' is clicked on
+
+2022-01-15 10:47:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/span_Tng quan")): Object: 'Object Repository/Page_Element/span_Tng quan' is clicked on
+
+2022-01-15 10:47:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/span_Tng quan' is clicked on
+
+2022-01-15 10:47:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Ting Vit_1")): Object: 'Object Repository/Page_Element/div_Ting Vit_1' is clicked on
+
+2022-01-15 10:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Ting Vit_1' is clicked on
+
+2022-01-15 10:48:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Language and region_mx_LanguageDropdo_2fd689"), "E"): Text 'E' is set on object 'Object Repository/Page_Element/input_Language and region_mx_LanguageDropdo_2fd689'
+
+2022-01-15 10:49:14 - [MESSAGE][PASSED] - Text 'E' is set on object 'Object Repository/Page_Element/input_Language and region_mx_LanguageDropdo_2fd689'
+
+2022-01-15 10:49:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_English")): Object: 'Object Repository/Page_Element/div_English' is clicked on
+
+2022-01-15 10:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_English' is clicked on
+
+2022-01-15 10:49:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 10:49:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/43.InvalidSecurityKey" time="245.262" classname="Test Cases/43.InvalidSecurityKey" status="PASSED">
+         <system-out><![CDATA[2022-01-15 10:49:46 - [TEST_CASE][PASSED] - Test Cases/43.InvalidSecurityKey: Test Cases/43.InvalidSecurityKey
+
+2022-01-15 10:49:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 10:49:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 10:49:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 10:49:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 10:49:47 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:49:49 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:49:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:50:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:51:20 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:51:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:51:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:51:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:52:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:52:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:53:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Invalid Security Key")): Object: 'Object Repository/Page_Element/div_Invalid Security Key' is clicked on
+
+2022-01-15 10:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Invalid Security Key' is clicked on
+
+2022-01-15 10:53:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 10:53:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20.Set_favorate_room" time="396.606" classname="Test Cases/20.Set_favorate_room" status="PASSED">
+         <system-out><![CDATA[2022-01-15 10:53:51 - [TEST_CASE][PASSED] - Test Cases/20.Set_favorate_room: Test Cases/20.Set_favorate_room
+
+2022-01-15 10:53:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-15 10:53:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-15 10:53:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-15 10:53:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-15 10:53:53 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:53:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-15 10:53:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Sign In")): Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Sign In' is clicked on
+
+2022-01-15 10:54:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Element/input_Sign in with_username"), "ptnha19"): Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:55:25 - [MESSAGE][PASSED] - Text 'ptnha19' is set on object 'Object Repository/Page_Element/input_Sign in with_username'
+
+2022-01-15 10:55:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Username_password"), "5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI"): Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:55:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Username_password'
+
+2022-01-15 10:55:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-15 10:56:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-15 10:56:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Element/input_Security Key_mx_Field_4"), "PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA=="): Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:57:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-15 10:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/button_Continue")): Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/button_Continue' is clicked on
+
+2022-01-15 10:57:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_Done")): Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:58:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_Done' is clicked on
+
+2022-01-15 10:58:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element/div_hehe")): Object: 'Object Repository/Page_Element/div_hehe' is clicked on
+
+2022-01-15 10:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element/div_hehe' is clicked on
+
+2022-01-15 10:58:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  hehe/div_hehe_mx_RoomHeader_chevron")): Object: 'Object Repository/Page_Element  hehe/div_hehe_mx_RoomHeader_chevron' is clicked on
+
+2022-01-15 10:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  hehe/div_hehe_mx_RoomHeader_chevron' is clicked on
+
+2022-01-15 10:59:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  hehe/div_Favorite")): Object: 'Object Repository/Page_Element  hehe/div_Favorite' is clicked on
+
+2022-01-15 10:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  hehe/div_Favorite' is clicked on
+
+2022-01-15 10:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Element  hehe/div_This room is public_mx_ContextualMenu_b_fc4f75")): Object: 'Object Repository/Page_Element  hehe/div_This room is public_mx_ContextualMenu_b_fc4f75' is clicked on
+
+2022-01-15 11:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Element  hehe/div_This room is public_mx_ContextualMenu_b_fc4f75' is clicked on
+
+2022-01-15 11:00:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-15 11:00:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-15 08:40:04 - [TEST_SUITE][PASSED] - Test Suite: Test Cases/20.Set_favorate_room]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
