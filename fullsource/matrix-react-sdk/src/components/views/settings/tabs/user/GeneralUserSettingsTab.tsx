@@ -485,6 +485,7 @@ export default class GeneralUserSettingsTab extends React.Component<IProps, ISta
                 { supportsMultiLanguageSpellCheck ? this.renderSpellCheckSection() : null }
                 { discoverySection }
                 { this.renderIntegrationManagerSection() /* Has its own title */ }
+                { accountManagementSection }
             </div>
         );
     }
