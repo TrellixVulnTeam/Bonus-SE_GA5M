@@ -12,34 +12,34 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>dd9cc34b-b546-4519-b3bb-a2a6231762ad</testSuiteGuid>
    <testCaseLink>
-      <guid>1bfa5f76-71f6-4883-86c6-875b6f8db267</guid>
+      <guid>8cc6b810-c710-4b02-b666-a2ca391910e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/40.FeedBack</testCaseId>
+      <testCaseId>Test Cases/6.Search_join_public_room</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fab64bb5-e623-433e-9e03-b9fc482a31f9</guid>
+      <guid>84fc19c8-c512-4661-bf47-f978f604b760</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/49.LogInFail_03</testCaseId>
+      <testCaseId>Test Cases/30.ReferencesRoomList</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>50a2b900-c75d-444b-a458-3bb982d0a0d1</guid>
+      <guid>3d4967ac-5006-44f3-8cf0-f8d02f043407</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/77.PreferenceCodeBlock</testCaseId>
+      <testCaseId>Test Cases/34.ExploreRoom</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>83e583d1-2b6c-461e-9beb-ccb56030fb85</guid>
+      <guid>816618e5-1080-45ea-a683-6cdd49406ffb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/78.RightClickSpace</testCaseId>
+      <testCaseId>Test Cases/41.ChangeLanguage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2c730713-400c-47a8-910e-ca694ddd22ca</guid>
+      <guid>7fdd6b6b-f87c-473a-9476-1185dc613665</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/80.PreferemcesSpace_RightClick</testCaseId>
+      <testCaseId>Test Cases/76.AddInvalidPhoneNumber</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2003dd65-d533-4b96-86f1-fe4affd9f1e4</guid>
@@ -66,16 +66,16 @@
       <testCaseId>Test Cases/91.SendMessageCreateGroup</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8b63d4de-b683-4452-b5bc-ba05d5b4a11d</guid>
+      <guid>032b12d4-7a44-493d-a4c6-ed413e21b035</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/93.SendMessageExploreRoomCreateGroup</testCaseId>
+      <testCaseId>Test Cases/20.Set_favorate_room</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7e2cfcab-1038-4698-844f-b9ca6c63a644</guid>
+      <guid>fab64bb5-e623-433e-9e03-b9fc482a31f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/1.Sign_in_Pass</testCaseId>
+      <testCaseId>Test Cases/49.LogInFail_03</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>76b1142e-4253-4b5f-b5b5-076107a58bd6</guid>
@@ -96,16 +96,16 @@
       <testCaseId>Test Cases/4.Create_private_room</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8cc6b810-c710-4b02-b666-a2ca391910e9</guid>
+      <guid>1bfa5f76-71f6-4883-86c6-875b6f8db267</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/6.Search_join_public_room</testCaseId>
+      <testCaseId>Test Cases/40.FeedBack</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>66785ba8-d2e9-43f2-9a7d-f149beaf3715</guid>
+      <guid>83e583d1-2b6c-461e-9beb-ccb56030fb85</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/23.ChangeFronSizeValid</testCaseId>
+      <testCaseId>Test Cases/78.RightClickSpace</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>234ddae4-15f5-4f6a-ba90-f509f40f1dbc</guid>
@@ -126,16 +126,16 @@
       <testCaseId>Test Cases/28.EnableDesktopNotificationsForThisSession</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4c78031b-3c34-46c1-bf8b-cebeabb7ef9d</guid>
+      <guid>2c730713-400c-47a8-910e-ca694ddd22ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/29.EnableEmailNotifications</testCaseId>
+      <testCaseId>Test Cases/80.PreferemcesSpace_RightClick</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>84fc19c8-c512-4661-bf47-f978f604b760</guid>
+      <guid>50a2b900-c75d-444b-a458-3bb982d0a0d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/30.ReferencesRoomList</testCaseId>
+      <testCaseId>Test Cases/77.PreferenceCodeBlock</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>95b339d4-5132-4665-a69e-22fc845c7e3f</guid>
@@ -150,10 +150,10 @@
       <testCaseId>Test Cases/33.SettingVoiceVideo</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3d4967ac-5006-44f3-8cf0-f8d02f043407</guid>
+      <guid>7e2cfcab-1038-4698-844f-b9ca6c63a644</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/34.ExploreRoom</testCaseId>
+      <testCaseId>Test Cases/1.Sign_in_Pass</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cb58d977-465d-4409-9b62-9429b1f7876e</guid>
@@ -174,10 +174,10 @@
       <testCaseId>Test Cases/38.TurnOffOnNotiPeople</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>816618e5-1080-45ea-a683-6cdd49406ffb</guid>
+      <guid>66785ba8-d2e9-43f2-9a7d-f149beaf3715</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/41.ChangeLanguage</testCaseId>
+      <testCaseId>Test Cases/23.ChangeFronSizeValid</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a395df33-d134-4eda-82f2-e0398edc9e1f</guid>
@@ -192,10 +192,10 @@
       <testCaseId>Test Cases/44.SignOutThroughSetting</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>941897f9-2d9d-4ea4-bcc6-e9b5b3507420</guid>
+      <guid>8b63d4de-b683-4452-b5bc-ba05d5b4a11d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/45.ChangeLanguageInSigninPage</testCaseId>
+      <testCaseId>Test Cases/93.SendMessageExploreRoomCreateGroup</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>389bf7cb-4178-48d5-bc5d-2df8e358fc48</guid>
@@ -216,10 +216,10 @@
       <testCaseId>Test Cases/55.ShareLink</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>14df9537-3f78-41f6-aba2-3601da89b8c4</guid>
+      <guid>4c78031b-3c34-46c1-bf8b-cebeabb7ef9d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/56.SeeFileInRoom</testCaseId>
+      <testCaseId>Test Cases/29.EnableEmailNotifications</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>23a978ee-5ee8-4b46-8462-a457a8703361</guid>
@@ -270,10 +270,10 @@
       <testCaseId>Test Cases/73.InviteToSpacec</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7fdd6b6b-f87c-473a-9476-1185dc613665</guid>
+      <guid>941897f9-2d9d-4ea4-bcc6-e9b5b3507420</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/76.AddInvalidPhoneNumber</testCaseId>
+      <testCaseId>Test Cases/45.ChangeLanguageInSigninPage</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>76ea4054-77eb-44b2-839e-63e1ff889307</guid>
@@ -306,9 +306,9 @@
       <testCaseId>Test Cases/89.SendMessageExploreRoom</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>032b12d4-7a44-493d-a4c6-ed413e21b035</guid>
+      <guid>14df9537-3f78-41f6-aba2-3601da89b8c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/20.Set_favorate_room</testCaseId>
+      <testCaseId>Test Cases/56.SeeFileInRoom</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -45,7 +45,5 @@ WebUI.setText(findTestObject('Object Repository/Page_Element/input__mx_Field_11'
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Add'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/button_OK'))
-
 WebUI.closeBrowser()
 

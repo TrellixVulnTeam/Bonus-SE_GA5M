@@ -39,15 +39,5 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/span_Explore public rooms'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Create a new room_dirsearch'), 'haha4')
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_hahahaha4duangaomatrix.org'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Join'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element  haha/div_haha'))
-
 WebUI.closeBrowser()
 

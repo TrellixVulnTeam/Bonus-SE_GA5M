@@ -41,15 +41,5 @@ WebUI.click(findTestObject('Object Repository/Page_Element/span_P'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_All settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/span_Preferences'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_bf3284'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_2eb3ce'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Show shortcuts to recently viewed rooms_2eb3ce'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_concat(All rooms you, , re in will appe_115007'))
-
 WebUI.closeBrowser()
 

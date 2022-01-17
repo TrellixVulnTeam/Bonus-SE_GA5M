@@ -37,15 +37,5 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Create a new room_dirsearch'), 'abc')
-
-WebUI.click(findTestObject('Object Repository/Page_Element/span_(matrix.org)'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_This room is public_mx_ContextualMenu_b_fc4f75'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Explore rooms_mx_AccessibleButton mx_Di_ac37a4'))
-
 WebUI.closeBrowser()
 

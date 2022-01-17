@@ -41,23 +41,5 @@ WebUI.click(findTestObject('Object Repository/Page_Element/img_Review_mx_BaseAva
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_All settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_English (US)'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Language and region_mx_LanguageDropdo_2fd689'), 'Ti')
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Ting Vit'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/img_Review_mx_BaseAvatar_image'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/span_Bo mt  Quyn ring t'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/span_Tng quan'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Ting Vit_1'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Language and region_mx_LanguageDropdo_2fd689'), 'E')
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_English'))
-
 WebUI.closeBrowser()
 

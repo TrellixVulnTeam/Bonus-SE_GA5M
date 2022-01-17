@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_English (US)'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Explore rooms_mx_LanguageDropdown_input'), 'Dan')
