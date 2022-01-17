@@ -23,17 +23,17 @@ WebUI.navigateToUrl('http://localhost:8080/')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Explore rooms'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Create a new room'))
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Create a new room_dirsearch'), 'dhb')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Preview'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Forgot password'))
+WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign in instead'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'abc')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), 'YYdYgnpZIxc=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), '8ylGA/40/qI=')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
 

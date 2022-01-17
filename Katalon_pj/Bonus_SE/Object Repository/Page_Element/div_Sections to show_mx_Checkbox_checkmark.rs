@@ -6,12 +6,12 @@
    <elementGuidId>4d764fd9-6aa1-4324-96d7-43ecfde3ab85</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.mx_Checkbox_checkmark</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div/div[2]/div/div/div[2]/span/label/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mx_Checkbox_checkmark</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

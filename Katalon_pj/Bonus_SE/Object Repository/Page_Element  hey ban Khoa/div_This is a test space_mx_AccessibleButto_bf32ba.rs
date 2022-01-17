@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Preferences_mx_AccessibleButton mx_Dial_364915</name>
+   <name>div_This is a test space_mx_AccessibleButto_bf32ba</name>
    <tag></tag>
-   <elementGuidId>ed8ae687-ea08-4a73-adaa-717a04dc9071</elementGuidId>
+   <elementGuidId>df3f6fe4-8b62-4f3e-b7c6-f84193e6dc48</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div/div</value>
+         <value>//section[@id='matrixchat']/div/div[2]/div[3]/main/div/div/div[5]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.mx_AccessibleButton.mx_Dialog_cancelButton</value>
+         <value>div.mx_AccessibleButton.mx_SearchBox_closeButton</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,9 +26,9 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>Close dialog</value>
+      <value>-1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,36 +40,29 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mx_AccessibleButton mx_Dialog_cancelButton</value>
+      <value>mx_AccessibleButton mx_SearchBox_closeButton</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_Dialog_StaticContainer&quot;)/div[@class=&quot;mx_Dialog_wrapper mx_Dialog_staticWrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_SpacePreferencesDialog&quot;]/div[@class=&quot;mx_Dialog_header mx_Dialog_headerWithCancel&quot;]/div[@class=&quot;mx_AccessibleButton mx_Dialog_cancelButton&quot;]</value>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_RoomView_wrapper&quot;]/main[@class=&quot;mx_SpaceRoomView&quot;]/div[@class=&quot;mx_MainSplit&quot;]/div[@class=&quot;mx_SpaceRoomView_landing&quot;]/div[@class=&quot;mx_SearchBox mx_textinput mx_SearchBox_blurred&quot;]/div[@class=&quot;mx_AccessibleButton mx_SearchBox_closeButton&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div/div</value>
+      <value>//section[@id='matrixchat']/div/div[2]/div[3]/main/div/div/div[5]/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/div/div[3]/div/div</value>
+      <value>//main/div/div/div[5]/div</value>
    </webElementXpaths>
 </WebElementEntity>

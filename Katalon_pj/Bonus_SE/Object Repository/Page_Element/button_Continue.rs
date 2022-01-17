@@ -6,12 +6,12 @@
    <elementGuidId>51ee75d4-74c4-4b7d-8ce5-5009c332c39b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mx_Dialog_primary</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mx_Dialog_primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

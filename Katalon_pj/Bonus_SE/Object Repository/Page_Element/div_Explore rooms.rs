@@ -6,12 +6,12 @@
    <elementGuidId>2018a19d-1f54-4dbb-9b45-fdf77d9b2a24</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.mx_ButtonParent.mx_SecondaryButton.mx_Button_iconRoomDirectory > div.mx_ButtonLabel</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//section[@id='matrixchat']/div/div/div[2]/div/div/div/div/div/div[2]/div/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.mx_ButtonParent.mx_SecondaryButton.mx_Button_iconRoomDirectory > div.mx_ButtonLabel</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -92,12 +92,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a/div</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/preceding::div[1]</value>
    </webElementXpaths>
 </WebElementEntity>
