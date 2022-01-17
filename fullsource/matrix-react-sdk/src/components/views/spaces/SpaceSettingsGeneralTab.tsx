@@ -90,48 +90,6 @@ const SpaceSettingsGeneralTab = ({ matrixClient: cli, space, onFinished }: IProp
     };
 
     return <div className="mx_SettingsTab">
-        <div className="mx_SettingsTab_heading">{ _t("General") }</div>
-
-        <div>{ _t("Edit settings relating to your space.") }</div>
-
-        { error && <div className="mx_SpaceRoomView_errorText">{ error }</div> }
-
-        <div className="mx_SettingsTab_section">
-            <SpaceBasicSettings
-                avatarUrl={avatarUrlForRoom(space, 80, 80, "crop")}
-                avatarDisabled={busy || !canSetAvatar}
-                setAvatar={setNewAvatar}
-                name={name}
-                nameDisabled={busy || !canSetName}
-                setName={setName}
-                topic={topic}
-                topicDisabled={busy || !canSetTopic}
-                setTopic={setTopic}
-            />
-
-            <AccessibleButton
-                onClick={onCancel}
-                disabled={busy || !(avatarChanged || nameChanged || topicChanged)}
-                kind="link"
-            >
-                { _t("Cancel") }
-            </AccessibleButton>
-            <AccessibleButton onClick={onSave} disabled={busy} kind="primary">
-                { busy ? _t("Saving...") : _t("Save Changes") }
-            </AccessibleButton>
-        </div>
-
-        <span className="mx_SettingsTab_subheading">{ _t("Leave Space") }</span>
-        <div className="mx_SettingsTab_section mx_SettingsTab_subsectionText">
-            <AccessibleButton
-                kind="danger"
-                onClick={() => {
-                    leaveSpace(space);
-                }}
-            >
-                { _t("Leave Space") }
-            </AccessibleButton>
-        </div>
     </div>;
 };
 
