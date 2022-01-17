@@ -940,7 +940,6 @@ export default class SpaceRoomView extends React.PureComponent<IProps, IState> {
         return <main className="mx_SpaceRoomView">
             <ErrorBoundary>
                 <MainSplit panel={rightPanel} resizeNotifier={this.props.resizeNotifier}>
-                    { this.renderBody() }
                 </MainSplit>
             </ErrorBoundary>
         </main>;
