@@ -31,7 +31,7 @@
       <value>mx_AccessSecretStorageDialog_recoveryKeyFeedback mx_AccessSecretStorageDialog_recoveryKeyFeedback_valid</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -45,7 +45,7 @@
       <value>id(&quot;mx_Dialog_Container&quot;)/div[@class=&quot;mx_Dialog_wrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_AccessSecretStorageDialog mx_Dialog_fixedWidth&quot;]/div[2]/div[1]/form[@class=&quot;mx_AccessSecretStorageDialog_primaryContainer&quot;]/div[@class=&quot;mx_AccessSecretStorageDialog_recoveryKeyFeedback mx_AccessSecretStorageDialog_recoveryKeyFeedback_valid&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

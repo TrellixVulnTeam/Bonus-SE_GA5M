@@ -25,6 +25,8 @@ WebUI.verifyElementPresent(findTestObject('Page_Element/a_Sign In'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
 
+WebUI.verifyElementText(findTestObject('Page_Element/a_Twitter'), 'Twitter')
+
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), '5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI')
