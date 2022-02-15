@@ -21,7 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/a_Sign In'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
+
+WebUI.verifyElementText(findTestObject('Page_Element/a_Twitter'), 'Twitter')
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'Matrix')
 

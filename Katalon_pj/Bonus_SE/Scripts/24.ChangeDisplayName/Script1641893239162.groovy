@@ -21,7 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/a_Sign In'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
+
+WebUI.verifyElementText(findTestObject('Page_Element/a_Twitter'), 'Twitter')
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 
@@ -31,6 +35,8 @@ WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/div_Looks good'), 0)
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Security Key_mx_Field_4'), 'PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
@@ -39,7 +45,12 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/img_Review_mx_BaseAvatar_image'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Element 1/div_ptnha19matrix.org_mx_AccessibleButton mx_UserMenu_contextMenu_themeButton'), 
+    0)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/span_All settings'))
+
+WebUI.verifyElementClickable(findTestObject('Page_Element 1/span_Labs_mx_TabbedView_maskedIcon mx_UserSettingsDialog_helpIcon'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Profile_mx_Field_5'), 'ptnha1')
 

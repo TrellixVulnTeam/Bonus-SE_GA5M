@@ -21,7 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/a_Sign In'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
+
+WebUI.verifyElementText(findTestObject('Page_Element/a_Twitter'), 'Twitter')
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 
@@ -41,9 +45,13 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_Send a Direct Message'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Element 1/h2_Direct Messages'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Direct Messages_mx_AccessibleButton mx__57a7bb'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_Explore public rooms'))
+
+WebUI.verifyElementText(findTestObject('Page_Element 1/h2_Explore rooms'), 'Explore rooms')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Create a new room'))
 

@@ -43,11 +43,15 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/img_Review_mx_BaseAvatar_image'), 0)
+
 WebUI.rightClick(findTestObject('Object Repository/Page_Element/img_Review_mx_BaseAvatar_image'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_Feedback'))
 
 WebUI.delay(5)
+
+WebUI.verifyElementText(findTestObject('Page_Element/h3_Comment'), 'Comment')
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/textarea_a'), 'a')
 

@@ -6,12 +6,12 @@
    <elementGuidId>bf75a87e-a1ac-4e17-9e19-cf786afa33cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div/div/div[3]/div/div/div/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.mx_RoomSublist_collapseBtn.mx_RoomSublist_collapseBtn_collapsed</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div/div/div[3]/div/div/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

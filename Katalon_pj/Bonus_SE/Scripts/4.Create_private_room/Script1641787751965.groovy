@@ -21,7 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In'))
+WebUI.verifyElementPresent(findTestObject('Page_Element/a_Sign In'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
+
+WebUI.verifyElementText(findTestObject('Page_Element/a_Twitter'), 'Twitter')
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 
@@ -31,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/p_Use your Security Key to continue'))
+WebUI.verifyElementPresent(findTestObject('Page_Element/div_Looks good'), 0)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Security Key_mx_Field_4'), 'PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA==')
 
@@ -42,6 +46,11 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_Create new room'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Element/p_You cant disable this later. Bridges  most bots wont work yet'), 
+    0)
+
+WebUI.verifyElementClickable(findTestObject('Page_Element/button_Cancel'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Create a private room_mx_Field_5'), 'Room1')
 

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mx_ContextualMenu_Container']/div/div[2]/div/div[2]/div[4]/span[2]</value>
+         <value>//div[@id='mx_ContextualMenu_Container']/div/div[2]/div/div[2]/div[5]/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_ContextualMenu_Container&quot;)/div[@class=&quot;mx_ContextualMenu_wrapper&quot;]/div[@class=&quot;mx_ContextualMenu mx_ContextualMenu_left mx_ContextualMenu_top&quot;]/div[@class=&quot;mx_IconizedContextMenu mx_SpacePanel_contextMenu mx_IconizedContextMenu_compact&quot;]/div[@class=&quot;mx_IconizedContextMenu_optionList&quot;]/div[@class=&quot;mx_AccessibleButton&quot;]/span[@class=&quot;mx_IconizedContextMenu_label&quot;]</value>
+      <value>id(&quot;mx_ContextualMenu_Container&quot;)/div[@class=&quot;mx_ContextualMenu_wrapper&quot;]/div[@class=&quot;mx_ContextualMenu mx_ContextualMenu_left mx_ContextualMenu_top&quot;]/div[@class=&quot;mx_IconizedContextMenu mx_SpacePanel_contextMenu mx_IconizedContextMenu_compact&quot;]/div[@class=&quot;mx_IconizedContextMenu_optionList&quot;]/div[@class=&quot;mx_AccessibleButton mx_IconizedContextMenu_item&quot;]/span[@class=&quot;mx_IconizedContextMenu_label&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mx_ContextualMenu_Container']/div/div[2]/div/div[2]/div[4]/span[2]</value>
+      <value>//div[@id='mx_ContextualMenu_Container']/div/div[2]/div/div[2]/div[5]/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,20 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Settings']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mx_ContextualMenu_Container']/div/div[2]/div/div[2]/div[4]/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

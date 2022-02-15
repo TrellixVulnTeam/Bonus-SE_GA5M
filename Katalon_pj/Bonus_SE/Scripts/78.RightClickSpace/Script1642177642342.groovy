@@ -21,7 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/a_Sign In'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
+
+WebUI.verifyElementText(findTestObject('Page_Element/a_Twitter'), 'Twitter')
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 
@@ -31,15 +35,21 @@ WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/div_Looks good'), 0)
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Security Key_mx_Field_4'), 'PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
+WebUI.verifyElementClickable(findTestObject('Page_Element  Tmp Private/span_T'))
+
 WebUI.rightClick(findTestObject('Object Repository/Page_Element/span_H'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_Manage  explore rooms'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Element  hey ban Khoa/div_This is a test space'), 0)
 
 WebUI.setText(findTestObject('Object Repository/Page_Element  hey ban Khoa/input_This is a test space_mx_textinput_ico_852234'), 
     'abc')

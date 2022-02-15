@@ -21,7 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/a_Sign In'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
+
+WebUI.verifyElementText(findTestObject('Page_Element/a_Twitter'), 'Twitter')
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 
@@ -31,19 +35,22 @@ WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/div_Looks good'), 0)
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Security Key_mx_Field_4'), 'PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Element 1/span_Favorites'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/span_Favorites_mx_RoomSublist_collapseBtn'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_Favorites_mx_RoomSublist_collapseBtn m_10447f'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Tr Cao Thin'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_Khoa Dng Vn'))
+WebUI.verifyElementPresent(findTestObject('Page_Element 1/div_Favorites_mx_AccessibleButton mx_RoomSublist_menuButton'), 
+    0)
 
 WebUI.closeBrowser()
 

@@ -6,12 +6,12 @@
    <elementGuidId>50287ef0-9ea2-4c0c-97f2-6b363ed1ca7d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div[2]/div/ul/div/div/div/span/img</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>img.mx_BaseAvatar_image</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='matrixchat']/div/div[2]/div/ul/div/div/div/span/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
