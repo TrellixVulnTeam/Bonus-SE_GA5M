@@ -23,6 +23,8 @@ WebUI.navigateToUrl('http://localhost:8080/')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Explore rooms'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/div_Create a new room'), 0)
+
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Create a new room_dirsearch'), 'dhb')
 
 WebUI.delay(5)
@@ -30,6 +32,8 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Preview'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Sign In'))
+
+WebUI.verifyElementText(findTestObject('Page_Element/div_Edit'), 'Edit')
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 

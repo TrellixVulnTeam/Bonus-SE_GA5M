@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/a_Powered by Matrix'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptsajfk')
@@ -28,6 +30,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), 'nLM6O7ELZdU=')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Element/div_Incorrect username andor password'), 0)
 
 WebUI.closeBrowser()
 

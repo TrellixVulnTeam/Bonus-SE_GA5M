@@ -6,12 +6,12 @@
    <elementGuidId>34805a86-22f0-4569-8f13-e5ecb408436e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>img[alt=&quot;gitlab&quot;]</value>
+         <key>XPATH</key>
+         <value>//section[@id='matrixchat']/div/div/div[2]/div/div/img</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[3]/div/div[3]/img</value>
+         <key>CSS</key>
+         <value>img[alt=&quot;Element&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +28,21 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>img/element-icons/brands/gitlab.f35856c.svg</value>
+      <value>themes/element/img/logos/element-logo.svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Element</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_AuthPage&quot;]/div[@class=&quot;mx_AuthPage_modal&quot;]/div[@class=&quot;mx_AuthPage_modalContent&quot;]/div[@class=&quot;mx_AuthHeader&quot;]/div[@class=&quot;mx_AuthHeaderLogo&quot;]/img[1]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,22 +58,29 @@
       <type>Main</type>
       <value>24</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>alt</name>
-      <type>Main</type>
-      <value>gitlab</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_AuthPage&quot;]/div[@class=&quot;mx_AuthPage_modal&quot;]/div[@class=&quot;mx_AuthPage_modalContent&quot;]/div[@class=&quot;mx_AuthBody&quot;]/div[@class=&quot;mx_SSOButtons&quot;]/div[@class=&quot;mx_SSOButtons_row&quot;]/div[@class=&quot;mx_AccessibleButton mx_SSOButton mx_SSOButton_brand_gitlab mx_SSOButton_mini&quot;]/img[1]</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='matrixchat']/div/div/div[2]/div/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Element']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

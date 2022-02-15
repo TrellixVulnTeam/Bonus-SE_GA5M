@@ -27,6 +27,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Element/input_Explore rooms
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Dansk'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/div_Opret brugerkonto'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Dansk_1'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Explore rooms_mx_LanguageDropdown_input'), 'Eng')
@@ -38,6 +40,8 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Explore rooms'))
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Explore rooms_mx_AccessibleButton mx_Di_ac37a4'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
+
+WebUI.verifyElementText(findTestObject('Page_Element/h3_Homeserver'), 'Homeserver')
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div/div/div[2]</value>
+         <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -56,14 +56,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_AuthPage&quot;]/div[@class=&quot;mx_AuthPage_modal&quot;]/div[@class=&quot;mx_AuthPage_modalContent&quot;]/div[@class=&quot;mx_AuthBody&quot;]/div[1]/div[@class=&quot;mx_ServerPicker&quot;]/div[@class=&quot;mx_AccessibleButton mx_ServerPicker_change mx_AccessibleButton_hasKind mx_AccessibleButton_kind_link&quot;]</value>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_AuthPage&quot;]/div[@class=&quot;mx_AuthPage_modal&quot;]/div[@class=&quot;mx_AuthPage_modalContent&quot;]/div[@class=&quot;mx_AuthBody&quot;]/div[@class=&quot;mx_ServerPicker&quot;]/div[@class=&quot;mx_AccessibleButton mx_ServerPicker_change mx_AccessibleButton_hasKind mx_AccessibleButton_kind_link&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div/div/div[2]</value>
+      <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in with'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,27 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

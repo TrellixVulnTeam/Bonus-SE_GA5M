@@ -21,6 +21,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/img_Welcome to Element_mx_Logo'), 0)
+
+WebUI.verifyElementText(findTestObject('Page_Element/a_Blog'), 'Blog')
+
 WebUI.click(findTestObject('Object Repository/Page_Element/a_Sign In'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')

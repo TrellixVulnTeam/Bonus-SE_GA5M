@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Create a new room</name>
+   <name>a_Blog</name>
    <tag></tag>
-   <elementGuidId>d4b38d70-46d6-4ace-8078-768054696ab7</elementGuidId>
+   <elementGuidId>3c1a66a1-e9e8-40d0-a599-a82c7b226505</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/span/div</value>
+         <value>//section[@id='matrixchat']/div/div[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.mx_AccessibleButton.mx_AccessibleButton_hasKind.mx_AccessibleButton_kind_secondary</value>
+         <value>div.mx_AuthFooter > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,90 +21,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>href</name>
       <type>Main</type>
-      <value>button</value>
+      <value>https://element.io/blog</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>target</name>
       <type>Main</type>
-      <value>0</value>
+      <value>_blank</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>rel</name>
       <type>Main</type>
-      <value>mx_AccessibleButton mx_AccessibleButton_hasKind mx_AccessibleButton_kind_secondary</value>
+      <value>noreferrer noopener</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Create a new room</value>
+      <value>Blog</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_Dialog_StaticContainer&quot;)/div[@class=&quot;mx_Dialog_wrapper mx_Dialog_staticWrapper mx_RoomDirectory_dialogWrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_RoomDirectory_dialog mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_RoomDirectory&quot;]/span[1]/div[@class=&quot;mx_AccessibleButton mx_AccessibleButton_hasKind mx_AccessibleButton_kind_secondary&quot;]</value>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_AuthPage&quot;]/div[@class=&quot;mx_AuthFooter&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/span/div</value>
+      <value>//section[@id='matrixchat']/div/div[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Blog')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore rooms'])[2]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Matrix rooms'])[1]/preceding::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore rooms'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(matrix.org)'])[1]/preceding::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Twitter'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Create a new room']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub'])[1]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Blog']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://element.io/blog')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/div</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore rooms'])[1]/following::div[3]</value>
+      <value>//div[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>
