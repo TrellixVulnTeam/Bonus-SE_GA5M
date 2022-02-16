@@ -43,8 +43,6 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Element/div_Check your devices_mx_SpaceButton_icon'), 0)
-
 WebUI.verifyElementClickable(findTestObject('Page_Element/div_Check your devices_mx_AccessibleButton mx_QuickSettingsButton'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_Explore public rooms'))
