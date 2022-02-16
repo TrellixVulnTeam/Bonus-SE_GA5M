@@ -21,7 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/a_Sign In'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
+
+WebUI.verifyElementText(findTestObject('Page_Element/a_Twitter'), 'Twitter')
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
 
@@ -31,9 +35,13 @@ WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/div_Looks good'), 0)
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Security Key_mx_Field_4'), '5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Invalid Security Key'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Element/div_Invalid Security Key'), 0)
 
 WebUI.closeBrowser()
 

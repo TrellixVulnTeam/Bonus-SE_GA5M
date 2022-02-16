@@ -4,14 +4,19 @@
    <name>div_Explore Public Rooms</name>
    <tag></tag>
    <elementGuidId>46fcd7fa-e72f-414e-88d7-a559627dda46</elementGuidId>
+   <imagePath>Screenshots/Targets/Page_Element/div_Explore Public Rooms.png</imagePath>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mx_AccessibleButton.mx_HomePage_button_explore</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//section[@id='matrixchat']/div/div[2]/div[3]/div/div/div/div[2]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.mx_AccessibleButton.mx_HomePage_button_explore</value>
+         <key>IMAGE</key>
+         <value>Screenshots/Targets/Page_Element/div_Explore Public Rooms.png</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -85,6 +90,20 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a Group Chat'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Explore Public Rooms']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

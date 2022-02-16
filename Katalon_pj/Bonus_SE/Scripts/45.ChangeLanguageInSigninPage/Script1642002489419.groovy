@@ -21,9 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/a_Sign In'), 0)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_English (US)'))
+WebUI.verifyElementText(findTestObject('Page_Element/a_Twitter'), 'Twitter')
+
+WebUI.click(findTestObject('Page_Element/div_English'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Catal_mx_LanguageDropdown_input'), 'Ti')
 
@@ -37,11 +41,15 @@ WebUI.click(findTestObject('Object Repository/Page_Element/input_Qun mt khu_mx_L
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Xc minh bng Kha Bo mt'))
 
+WebUI.verifyElementPresent(findTestObject('Page_Element/div_Looks good'), 0)
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Cha kha bo mt_mx_Field_4'), 'PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Tip tc'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Xong'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Element/img_Kim tra li_mx_BaseAvatar_image'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Element/img_Kim tra li_mx_BaseAvatar_image'))
 

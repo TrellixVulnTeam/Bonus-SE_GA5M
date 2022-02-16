@@ -51,6 +51,8 @@ WebUI.verifyElementPresent(findTestObject('Page_Element 1/input_Create a new roo
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Create a new room_dirsearch'), 'haha4')
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_hahahaha4duangaomatrix.org'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Join'))
