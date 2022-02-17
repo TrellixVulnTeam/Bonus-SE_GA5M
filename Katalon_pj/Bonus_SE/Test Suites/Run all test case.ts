@@ -12,12 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>dd9cc34b-b546-4519-b3bb-a2a6231762ad</testSuiteGuid>
    <testCaseLink>
-      <guid>1bfa5f76-71f6-4883-86c6-875b6f8db267</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/40.FeedBack</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>fab64bb5-e623-433e-9e03-b9fc482a31f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -196,12 +190,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/45.ChangeLanguageInSigninPage</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>389bf7cb-4178-48d5-bc5d-2df8e358fc48</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/51.ChangeRoomName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ba820b69-e02a-433a-8551-b23dec2823a5</guid>
