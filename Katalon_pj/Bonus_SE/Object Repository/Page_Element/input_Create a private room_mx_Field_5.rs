@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='mx_Field_5']</value>
+         <value>//div[@id='mx_Dialog_Container']/div/div/div[3]/form/div/div/input</value>
       </entry>
       <entry>
          <key>CSS</key>

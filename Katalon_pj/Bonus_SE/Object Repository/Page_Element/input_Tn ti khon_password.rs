@@ -6,12 +6,12 @@
    <elementGuidId>61d0be67-3749-42cd-a034-9e9481f8a6ea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mx_Field_3</value>
+         <key>XPATH</key>
+         <value>//section[@id='matrixchat']/div/div/div[2]/div[2]/div[2]/form/div[3]/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mx_Field_3']</value>
+         <key>CSS</key>
+         <value>#mx_Field_3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

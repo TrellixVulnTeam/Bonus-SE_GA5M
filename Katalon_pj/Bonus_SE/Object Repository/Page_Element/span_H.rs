@@ -6,12 +6,12 @@
    <elementGuidId>4bb895d9-b6ae-4f6e-b3a0-838076aac142</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.mx_BaseAvatar.mx_RoomAvatar_isSpaceRoom</value>
+         <key>XPATH</key>
+         <value>//li[2]/div/div/div/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Review'])[1]/following::span[3]</value>
+         <key>CSS</key>
+         <value>span.mx_BaseAvatar.mx_RoomAvatar_isSpaceRoom</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

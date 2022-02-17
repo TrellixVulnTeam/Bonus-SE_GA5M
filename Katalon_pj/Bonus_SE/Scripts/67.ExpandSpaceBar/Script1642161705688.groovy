@@ -45,9 +45,9 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Review_mx_AccessibleButton mx_SpacePane_f02940'))
 
-WebUI.verifyElementText(findTestObject('Page_Element  hey ban Khoa/span_hey ban Khoa'), 'hey ban Khoa')
-
 WebUI.click(findTestObject('Object Repository/Page_Element/span_H'))
+
+WebUI.verifyElementText(findTestObject('Page_Element  hey ban Khoa/span_hey ban Khoa'), 'hey ban Khoa')
 
 WebUI.closeBrowser()
 

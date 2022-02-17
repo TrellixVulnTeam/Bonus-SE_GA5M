@@ -6,12 +6,12 @@
    <elementGuidId>31f79d63-975e-45b1-98ea-9e44d784e2b9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.mx_AccessibleButton.mx_Dropdown_input.mx_no_textinput</value>
+         <key>XPATH</key>
+         <value>//section[@id='matrixchat']/div/div/div[2]/div/div[2]/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/div/div/div[4]/div/div/div</value>
+         <key>CSS</key>
+         <value>div.mx_AccessibleButton.mx_Dropdown_input.mx_no_textinput</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

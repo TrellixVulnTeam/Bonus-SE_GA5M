@@ -6,11 +6,11 @@
    <elementGuidId>4f5bb8fb-f222-4a7f-a7ad-509de0a0e1a0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='hey ban Khoa'])[1]/following::span[4]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[2]/span[2]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
