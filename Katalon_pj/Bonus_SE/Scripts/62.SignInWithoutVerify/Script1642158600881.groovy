@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Go Back'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify this device_mx_AccessibleButton _90ce45'))
 
-WebUI.verifyElementClickable(findTestObject('Page_Element/div_Ill verify later'))
+WebUI.verifyElementClickable(findTestObject('Page_Element/h2_Are you sure'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Ill verify later'))
 

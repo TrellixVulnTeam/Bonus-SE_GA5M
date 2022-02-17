@@ -49,7 +49,7 @@ WebUI.click(findTestObject('Page_Element/div_Direct Messages_mx_AccessibleButton
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Explore Public Rooms'))
 
-WebUI.verifyElementClickable(findTestObject('Page_Element/div_Create a new room'))
+WebUI.verifyElementText(findTestObject('Page_Element/h2_Create a public room'), 'Explore rooms')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Create a new room'))
 

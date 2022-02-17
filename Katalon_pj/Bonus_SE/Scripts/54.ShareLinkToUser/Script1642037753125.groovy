@@ -43,7 +43,8 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Element  Tr Cao Thin/div_Tr Cao Thin'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Element/div_Administrator_mx_AccessibleButton mx_RoomTile_notificationsButton mx_RoomTile_iconBellCrossed mx_RoomTile_notificationsButton_show'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Tr Cao Thin'))
 
@@ -51,7 +52,7 @@ WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_Tr C
 
 WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_People2'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Element  Tr Cao Thin/div_ptnha19'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Element  Administrator/span_Invite to this room'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_ptnha19'))
 

@@ -41,7 +41,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Secu
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Invalid Security Key'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Element/div_Invalid Security Key'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Element/h2_Security Key'), 0)
 
 WebUI.closeBrowser()
 

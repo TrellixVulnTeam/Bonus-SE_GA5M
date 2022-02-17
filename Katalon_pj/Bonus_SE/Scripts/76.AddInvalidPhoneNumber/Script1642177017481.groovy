@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/img_Review_mx_BaseAvatar_image'))
 
-WebUI.verifyElementClickable(findTestObject('Page_Element/span_All settings'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('Page_Element/span_ptnha19matrix.org'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_All settings'))
 

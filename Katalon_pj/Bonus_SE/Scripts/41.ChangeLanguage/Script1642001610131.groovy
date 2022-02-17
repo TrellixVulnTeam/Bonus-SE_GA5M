@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/img_Review_mx_BaseAvatar_image'))
 
-WebUI.verifyElementClickable(findTestObject('Page_Element/span_All settings'))
+WebUI.verifyElementText(findTestObject('Page_Element/span_ptnha19matrix.org'), '@ptnha19:matrix.org')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_All settings'))
 
@@ -65,7 +65,7 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Ting Vit_1'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Language and region_mx_LanguageDropdo_2fd689'), 'E')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_English'))
+WebUI.click(findTestObject('Page_Element/div_English (US)'))
 
 WebUI.closeBrowser()
 

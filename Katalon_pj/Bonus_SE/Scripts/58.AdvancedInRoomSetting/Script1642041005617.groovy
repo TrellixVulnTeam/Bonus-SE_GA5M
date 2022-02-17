@@ -43,13 +43,14 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Element  Tr Cao Thin/div_Tr Cao Thin'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Element/div_Administrator_mx_AccessibleButton mx_RoomTile_notificationsButton mx_RoomTile_iconBellCrossed mx_RoomTile_notificationsButton_show'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Tr Cao Thin'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_Tr Cao Thin_mx_AccessibleButton mx_Righ_04f030'))
 
-WebUI.verifyElementClickable(findTestObject('Page_Element  Tr Cao Thin/div_Room settings'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementClickable(findTestObject('Page_Element  Administrator/h2_Administrator'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Element  Tr Cao Thin/div_Room settings'))
 

@@ -45,13 +45,11 @@ WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c'))
 
-WebUI.verifyElementClickable(findTestObject('Page_Element/div_Create a new room'))
+WebUI.verifyElementText(findTestObject('Page_Element/h2_Explore rooms'), 'Explore rooms')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Create a new room'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Create a public room_mx_Field_5'), 'abc')
-
-WebUI.verifyElementPresent(findTestObject('Page_Element/input_Create a public room_mx_Field_5'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Cancel'))
 

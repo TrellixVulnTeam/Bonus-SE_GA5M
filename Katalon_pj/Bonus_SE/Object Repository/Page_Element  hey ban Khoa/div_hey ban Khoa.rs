@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_hey ban Khoa</name>
+   <name>div_hey ban Khoa</name>
    <tag></tag>
-   <elementGuidId>8daac9e8-0ca5-4c40-9bca-be53a95731b8</elementGuidId>
+   <elementGuidId>a09ada79-e294-4218-b663-8d496cba5a5e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.mx_AccessibleButton.mx_SpaceButton.mx_SpaceButton_active > div.mx_SpaceButton_selectionWrapper > span.mx_SpaceButton_name</value>
+         <value>div.mx_SpacePanel_contextMenu_header</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div/div/ul/div[2]/div/li[2]/div/div/span</value>
+         <value>//div[@id='mx_ContextualMenu_Container']/div/div[2]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,14 +21,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mx_SpaceButton_name</value>
+      <value>mx_SpacePanel_contextMenu_header</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,55 +42,48 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_LeftPanel_wrapper&quot;]/ul[@class=&quot;mx_SpacePanel&quot;]/div[@class=&quot;mx_AutoHideScrollbar mx_SpacePanel_spaceTreeWrapper&quot;]/div[@class=&quot;mx_SpaceTreeLevel&quot;]/li[@class=&quot;mx_SpaceItem collapsed&quot;]/div[@class=&quot;mx_AccessibleButton mx_SpaceButton mx_SpaceButton_active&quot;]/div[@class=&quot;mx_SpaceButton_selectionWrapper&quot;]/span[@class=&quot;mx_SpaceButton_name&quot;]</value>
+      <value>id(&quot;mx_ContextualMenu_Container&quot;)/div[@class=&quot;mx_ContextualMenu_wrapper&quot;]/div[@class=&quot;mx_ContextualMenu mx_ContextualMenu_left mx_ContextualMenu_top&quot;]/div[@class=&quot;mx_IconizedContextMenu mx_SpacePanel_contextMenu mx_IconizedContextMenu_compact&quot;]/div[@class=&quot;mx_SpacePanel_contextMenu_header&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='matrixchat']/div/div/div/ul/div[2]/div/li[2]/div/div/span</value>
+      <value>//div[@id='mx_ContextualMenu_Container']/div/div[2]/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='All rooms'])[1]/following::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Including you, Khoa Dương Văn'])[1]/following::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ptnha19ptnha1'])[1]/following::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View all 2 members'])[1]/following::div[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tmp Private'])[1]/preceding::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite'])[2]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a space'])[1]/preceding::span[4]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='hey ban Khoa']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage &amp; explore rooms'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/div/div/span</value>
+      <value>//div[10]/div/div[2]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

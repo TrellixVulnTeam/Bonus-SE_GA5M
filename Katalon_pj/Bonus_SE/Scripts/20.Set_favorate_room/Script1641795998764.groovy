@@ -45,13 +45,11 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.verifyElementClickable(findTestObject('Page_Element/div_hehe'))
+WebUI.verifyElementText(findTestObject('Page_Element/h4_Own your conversations'), 'Own your conversations.')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_hehe'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_hehe_mx_RoomHeader_chevron'))
-
-WebUI.verifyElementClickable(findTestObject('Page_Element  hehe/div_Favorite'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element  hehe/div_Favorite'))
 

@@ -49,9 +49,9 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Tip tc'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Xong'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Element/img_Kim tra li_mx_BaseAvatar_image'), 0)
-
 WebUI.click(findTestObject('Object Repository/Page_Element/img_Kim tra li_mx_BaseAvatar_image'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Element/span_ptnha19matrix.org'), 0)
 
 WebUI.closeBrowser()
 

@@ -47,9 +47,9 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Element/img_Review_mx_BaseAvatar_image'), 0)
-
 WebUI.click(findTestObject('Object Repository/Page_Element/img_Review_mx_BaseAvatar_image'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Element/span_ptnha19matrix.org'), 0)
 
 WebUI.closeBrowser()
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_ptnha19</name>
+   <name>h2_Administrator</name>
    <tag></tag>
-   <elementGuidId>528a6e3a-e9da-4928-bc60-180df4b1f32a</elementGuidId>
+   <elementGuidId>9a972889-6bbe-4f5f-b480-4a066457ec0b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.mx_EntityTile_name</value>
+         <value>h2[title=&quot;Administrator&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//aside/div/div[2]/div/div/div[2]/div</value>
+         <value>//aside[@id='mx_RightPanel']/div/div/h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,62 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>h2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>title</name>
       <type>Main</type>
-      <value>mx_EntityTile_name</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>dir</name>
-      <type>Main</type>
-      <value>auto</value>
+      <value>Administrator</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ptnha19</value>
+      <value>Administrator</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mx_RightPanel&quot;)/div[@class=&quot;mx_BaseCard mx_MemberList&quot;]/div[@class=&quot;mx_AutoHideScrollbar&quot;]/div[@class=&quot;mx_MemberList_wrapper&quot;]/div[@class=&quot;mx_MemberList_section mx_MemberList_joined&quot;]/div[1]/div[@class=&quot;mx_AccessibleButton mx_EntityTile mx_EntityTile_online_beenactive&quot;]/div[@class=&quot;mx_EntityTile_details&quot;]/div[@class=&quot;mx_EntityTile_name&quot;]</value>
+      <value>id(&quot;mx_RightPanel&quot;)/div[@class=&quot;mx_BaseCard mx_RoomSummaryCard&quot;]/div[@class=&quot;mx_BaseCard_header&quot;]/h2[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//aside[@id='mx_RightPanel']/div/div[2]/div/div/div[2]/div</value>
+      <value>//aside[@id='mx_RightPanel']/div/div/h2</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ptnha19ptnha1 changed the room name from AdministratorABC to Administrator.'])[1]/following::h2[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrator'])[3]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ptnha19ptnha1 changed the room name from Administrator to AdministratorABC.'])[1]/following::h2[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About'])[1]/preceding::h2[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//aside/div/div[2]/div/div/div[2]/div</value>
+      <value>//aside/div/div/h2</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -43,13 +43,13 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.verifyElementClickable(findTestObject('Page_Element/div_Create a Group Chat'))
+WebUI.verifyElementText(findTestObject('Page_Element/h4_Own your conversations'), 'Own your conversations.')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Create a Group Chat'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/summary_Show advanced'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Element/input_Name_mx_Field_6'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Element/h2_Create a private room'), 0)
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Name_mx_Field_6'), 'abc')
 

@@ -43,9 +43,9 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.verifyElementClickable(findTestObject('Page_Element/span_H'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.rightClick(findTestObject('Object Repository/Page_Element/span_H'))
+
+WebUI.verifyElementText(findTestObject('Page_Element  hey ban Khoa/div_hey ban Khoa'), 'hey ban Khoa')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/span_Invite'))
 
