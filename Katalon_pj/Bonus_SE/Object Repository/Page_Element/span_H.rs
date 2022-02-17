@@ -6,12 +6,12 @@
    <elementGuidId>4bb895d9-b6ae-4f6e-b3a0-838076aac142</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div[2]/div/ul/div[2]/div/li[2]/div/div/div/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.mx_BaseAvatar.mx_RoomAvatar_isSpaceRoom</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Review'])[1]/following::span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

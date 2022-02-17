@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
 
-WebUI.verifyImagePresent(findTestObject('Page_Element/img_Enable_mx_BaseAvatar_image'))
+WebUI.verifyElementPresent(findTestObject('Page_Element/img_Enable_mx_BaseAvatar_image'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image'))
 

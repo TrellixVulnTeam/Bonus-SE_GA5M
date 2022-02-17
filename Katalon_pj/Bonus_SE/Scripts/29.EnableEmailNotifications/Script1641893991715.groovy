@@ -49,7 +49,7 @@ WebUI.click(findTestObject('Object Repository/Page_Element/span_Notifications'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Element 1/div_Notifications'), 0)
 
-WebUI.verifyElementText(findTestObject('Page_Element 1/span_Labs'), '')
+WebUI.verifyElementText(findTestObject('Page_Element 1/span_Labs'), 'Labs')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Enable email notifications for selena.n_56c593'))
 

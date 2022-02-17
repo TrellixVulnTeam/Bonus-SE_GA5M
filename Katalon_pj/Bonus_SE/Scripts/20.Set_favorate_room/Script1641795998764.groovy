@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('http://localhost:8080/')
 
 WebUI.verifyElementPresent(findTestObject('Page_Element/a_Sign In'), 0)
