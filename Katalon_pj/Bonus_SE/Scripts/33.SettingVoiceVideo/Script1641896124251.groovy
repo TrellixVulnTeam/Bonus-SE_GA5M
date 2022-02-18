@@ -33,11 +33,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_User
 
 WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Element/div_Looks good'), 0)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Security Key_mx_Field_4'), 'PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Security Key_mx_Field_4'), 'T5dL0dZa3GcY/MrlN7YOn6WOTrovA4jj9xOYEG/i3Z769E9Kq/X7+gryZqF4ov+opBHLAWv3wACasluLqCMBHw==')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 
@@ -52,56 +54,9 @@ WebUI.verifyElementPresent(findTestObject('Page_Element 1/span_Keyboard_mx_Tabbe
 
 WebUI.click(findTestObject('Page_Element 1/span_Keyboard_mx_TabbedView_maskedIcon mx_UserSettingsDialog_sidebarIcon'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Element 1/div_Voice  Video'), 0)
+WebUI.click(findTestObject('Page_Element 1/div_Voice  Video'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Mirror local video feed_mx_AccessibleBu_eb52dd'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Mirror local video feed_mx_ToggleSwitch_ball'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Settings_mx_AccessibleButton mx_Dialog__4987e8'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image'))
-
-WebUI.closeBrowser()
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://localhost:8080/')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Element/a_Sign In'), 0)
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Sign In'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Element/a_Twitter'), 'Twitter')
-
-WebUI.setText(findTestObject('Object Repository/Page_Element/input_Sign in with_username'), 'ptnha19')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Username_password'), '5R3Ima4A+eOeCrCDRGMLmJpaGR3V3+YI')
-
-WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Element/div_Looks good'), 0)
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Security Key_mx_Field_4'), 'PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA==')
-
-WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Done'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/img_Enable_mx_BaseAvatar_image'))
-
-WebUI.click(findTestObject('Object Repository/Page_Element/span_All settings'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Element 1/span_Keyboard_mx_TabbedView_maskedIcon mx_UserSettingsDialog_sidebarIcon'), 
-    0)
-
-WebUI.click(findTestObject('Object Repository/Page_Element 1/div_Voice  Video'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Element 1/div_Voice  Video'), 0)
-
-WebUI.click(findTestObject('Object Repository/Page_Element/div_Mirror local video feed_mx_AccessibleBu_eb52dd'))
+WebUI.click(findTestObject('Page_Element/div_Mirror local video feed_mx_ToggleSwitch_ball'))
 
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Mirror local video feed_mx_ToggleSwitch_ball'))
 

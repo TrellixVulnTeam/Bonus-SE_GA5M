@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Element/div_English (US)'))
+WebUI.click(findTestObject('Page_Element/div_English'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Element/input_Explore rooms_mx_LanguageDropdown_input'), 'Dan')
 
@@ -49,9 +49,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_User
 
 WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Security Key_mx_Field_4'), 'PF4jXtbe/5x5+S5PgN4Kl/QbANAkWZYKqKaG9gW6gn+Po31AOnak0DX8GoEzAUkskgpeON1UhfEqZG0XXngJPA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_Security Key_mx_Field_4'), 'T5dL0dZa3GcY/MrlN7YOn6WOTrovA4jj9xOYEG/i3Z769E9Kq/X7+gryZqF4ov+opBHLAWv3wACasluLqCMBHw==')
 
 WebUI.click(findTestObject('Object Repository/Page_Element/button_Continue'))
 

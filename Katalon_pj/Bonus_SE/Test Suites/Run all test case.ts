@@ -12,16 +12,34 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>dd9cc34b-b546-4519-b3bb-a2a6231762ad</testSuiteGuid>
    <testCaseLink>
-      <guid>fab64bb5-e623-433e-9e03-b9fc482a31f9</guid>
+      <guid>59c9c9a5-8cc3-455e-bae5-be0ee16361d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/49.LogInFail_03</testCaseId>
+      <testCaseId>Test Cases/3.Log_out</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>50a2b900-c75d-444b-a458-3bb982d0a0d1</guid>
+      <guid>3ca6fb0a-ddfd-4501-9ac7-d0a55dfc3c24</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/77.PreferenceCodeBlock</testCaseId>
+      <testCaseId>Test Cases/44.SignOutThroughSetting</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8cc6b810-c710-4b02-b666-a2ca391910e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/6.Search_join_public_room</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a395df33-d134-4eda-82f2-e0398edc9e1f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/43.InvalidSecurityKey</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dc3c2acb-1056-4d9c-bad6-8137ccc44088</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/55.ShareLink</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>83e583d1-2b6c-461e-9beb-ccb56030fb85</guid>
@@ -34,6 +52,96 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/80.PreferemcesSpace_RightClick</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5789b8e5-5fd0-4017-beb8-597a7f119633</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/73.InviteToSpacec</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7fdd6b6b-f87c-473a-9476-1185dc613665</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/76.AddInvalidPhoneNumber</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>76ea4054-77eb-44b2-839e-63e1ff889307</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/79.InvitePeopleToSpace_RightClick</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>30d7c282-2e9f-485f-820c-9e7342d81bf0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/81.SettingSpace_RightClick</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3fd113ed-7fbf-40eb-959f-5f59dc2ec9d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/84.CreateNewRoomThroughExploreRoom</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5248f0a7-1ddc-4092-a6d4-f555fafc2993</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/87.CreateRoomShowAdvanced</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>965aa094-e2ec-458b-ab3f-27979001cca4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/89.SendMessageExploreRoom</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c78031b-3c34-46c1-bf8b-cebeabb7ef9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/29.EnableEmailNotifications</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>84fc19c8-c512-4661-bf47-f978f604b760</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/30.ReferencesRoomList</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>95b339d4-5132-4665-a69e-22fc845c7e3f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/31.FAQ</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0bf9c395-1654-4ca0-a2db-3243d86e8339</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/33.SettingVoiceVideo</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3d4967ac-5006-44f3-8cf0-f8d02f043407</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/34.ExploreRoom</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cb58d977-465d-4409-9b62-9429b1f7876e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/35.ExpandPeopleBar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fab64bb5-e623-433e-9e03-b9fc482a31f9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/49.LogInFail_03</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>50a2b900-c75d-444b-a458-3bb982d0a0d1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/77.PreferenceCodeBlock</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2003dd65-d533-4b96-86f1-fe4affd9f1e4</guid>
@@ -78,22 +186,10 @@
       <testCaseId>Test Cases/2.Sign_in_Fail</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>59c9c9a5-8cc3-455e-bae5-be0ee16361d3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/3.Log_out</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>fd119c3a-9719-4c3f-8752-8f0ed54fd2fd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/4.Create_private_room</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8cc6b810-c710-4b02-b666-a2ca391910e9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/6.Search_join_public_room</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>66785ba8-d2e9-43f2-9a7d-f149beaf3715</guid>
@@ -120,42 +216,6 @@
       <testCaseId>Test Cases/28.EnableDesktopNotificationsForThisSession</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4c78031b-3c34-46c1-bf8b-cebeabb7ef9d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/29.EnableEmailNotifications</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>84fc19c8-c512-4661-bf47-f978f604b760</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/30.ReferencesRoomList</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>95b339d4-5132-4665-a69e-22fc845c7e3f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/31.FAQ</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0bf9c395-1654-4ca0-a2db-3243d86e8339</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/33.SettingVoiceVideo</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3d4967ac-5006-44f3-8cf0-f8d02f043407</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/34.ExploreRoom</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cb58d977-465d-4409-9b62-9429b1f7876e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/35.ExpandPeopleBar</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b4b67902-ad71-4dd8-8a3a-eb00cdff864b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -174,18 +234,6 @@
       <testCaseId>Test Cases/41.ChangeLanguage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a395df33-d134-4eda-82f2-e0398edc9e1f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/43.InvalidSecurityKey</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3ca6fb0a-ddfd-4501-9ac7-d0a55dfc3c24</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/44.SignOutThroughSetting</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>941897f9-2d9d-4ea4-bcc6-e9b5b3507420</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -196,12 +244,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/54.ShareLinkToUser</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>dc3c2acb-1056-4d9c-bad6-8137ccc44088</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/55.ShareLink</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>14df9537-3f78-41f6-aba2-3601da89b8c4</guid>
@@ -252,46 +294,16 @@
       <testCaseId>Test Cases/71.SpaceSetting</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5789b8e5-5fd0-4017-beb8-597a7f119633</guid>
+      <guid>a8e37a19-d565-4477-b280-19ca6080d622</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/73.InviteToSpacec</testCaseId>
+      <testCaseId>Test Cases/40.FeedBack</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7fdd6b6b-f87c-473a-9476-1185dc613665</guid>
+      <guid>c0238f23-e50f-418e-9842-b989cd38808a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/76.AddInvalidPhoneNumber</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>76ea4054-77eb-44b2-839e-63e1ff889307</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/79.InvitePeopleToSpace_RightClick</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>30d7c282-2e9f-485f-820c-9e7342d81bf0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/81.SettingSpace_RightClick</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3fd113ed-7fbf-40eb-959f-5f59dc2ec9d7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/84.CreateNewRoomThroughExploreRoom</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5248f0a7-1ddc-4092-a6d4-f555fafc2993</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/87.CreateRoomShowAdvanced</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>965aa094-e2ec-458b-ab3f-27979001cca4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/89.SendMessageExploreRoom</testCaseId>
+      <testCaseId>Test Cases/51.ChangeRoomName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>032b12d4-7a44-493d-a4c6-ed413e21b035</guid>

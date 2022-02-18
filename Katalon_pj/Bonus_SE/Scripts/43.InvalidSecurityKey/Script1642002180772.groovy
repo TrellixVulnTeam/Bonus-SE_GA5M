@@ -33,6 +33,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Element/input_User
 
 WebUI.click(findTestObject('Object Repository/Page_Element/input_Forgot password_mx_Login_submit'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Page_Element/div_Verify with Security Key'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Element/div_Looks good'), 0)
