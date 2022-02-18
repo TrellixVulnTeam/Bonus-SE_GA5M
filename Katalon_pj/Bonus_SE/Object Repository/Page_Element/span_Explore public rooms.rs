@@ -6,12 +6,12 @@
    <elementGuidId>79a1ddb0-92c2-480d-9471-49652b2eb390</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.mx_AccessibleButton.mx_HomePage_button_explore > span</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Explore public rooms']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Explore Public Rooms']/parent::*</value>
+         <key>CSS</key>
+         <value>div.mx_AccessibleButton.mx_HomePage_button_explore > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

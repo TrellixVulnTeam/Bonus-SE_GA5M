@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mx_ContextualMenu_Container']/div/div[2]/div/div[2]/div[2]/span[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='hey ban Khoa'])[1]/following::span[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

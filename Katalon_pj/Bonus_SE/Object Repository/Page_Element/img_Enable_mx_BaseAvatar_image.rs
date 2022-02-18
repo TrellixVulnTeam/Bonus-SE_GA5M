@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div[2]/div/ul/div/div/div/span/img</value>
+         <value>//img[contains(@src,'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAF1JREFUWEft0rENwCAQBEG+Lhp24B5NEZsga8hXQvM3736+dfEbH4zXIRgBF0GCVaD2NkiwCtTeBglWgdrbIMEqUHsbJFgFam+DBKtA7W2QYBWovQ0SrAK1t8HfCx7EfmZZuu/9ggAAAABJRU5ErkJggg==')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

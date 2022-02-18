@@ -6,12 +6,12 @@
    <elementGuidId>b24282d3-3f73-4d3e-a99c-c5ab7de74d9f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.mx_SpaceItem.collapsed > div.mx_AccessibleButton.mx_SpaceButton > div.mx_SpaceButton_selectionWrapper > span.mx_SpaceButton_name</value>
+         <key>XPATH</key>
+         <value>//li[2]/div/div/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div[2]/div/ul/div[2]/div/li[2]/div/div/span</value>
+         <key>CSS</key>
+         <value>li.mx_SpaceItem.collapsed > div.mx_AccessibleButton.mx_SpaceButton > div.mx_SpaceButton_selectionWrapper > span.mx_SpaceButton_name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

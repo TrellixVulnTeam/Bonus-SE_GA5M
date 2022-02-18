@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div[2]/div/ul/div[2]/div/li[2]/div/div/div/span</value>
+         <value>//li[2]/div/div/div/span</value>
       </entry>
       <entry>
          <key>CSS</key>
